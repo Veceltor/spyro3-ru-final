@@ -1,0 +1,11 @@
+----	37	----
+
+ENG:	Stratus
+RUS:	Stratus
+
+ENG:	We usually wake up our rain cloud at the crack of dawn, but these mischievous spirits are stopping our bells from ringing. &[Use the superfly powerup to flame the spirits in the belltowers.
+RUS:	We usually wake up our rain cloud at the crack of dawn, but these mischievous spirits are stopping our bells from ringing. &[Use the superfly powerup to flame the spirits in the belltowers.
+
+ENG:	Do you want this doodad? It fell out of the belfry.
+RUS:	Do you want this doodad? It fell out of the belfry.
+

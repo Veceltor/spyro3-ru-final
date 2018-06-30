@@ -1,0 +1,20 @@
+----	35	----
+
+ENG:	Smelt the Seal
+RUS:	Smelt the Seal
+
+ENG:	Bluto the rhynoc has challenged us to a naval battle. Our speed boat versus his nuclear shark submarine. If we win, we get the dragon egg he's guarding. If we lose, we have to spend a month in K.P.
+RUS:	Bluto the rhynoc has challenged us to a naval battle. Our speed boat versus his nuclear shark submarine. If we win, we get the dragon egg he's guarding. If we lose, we have to spend a month in K.P.
+
+ENG:	Whaddya say, do you want to take on Bluto? &Fight the nuclear shark sub? &Yeehah! &You gotta be kidding.
+RUS:	Whaddya say, do you want to take on Bluto? &Fight the nuclear shark sub? &Yeehah! &You gotta be kidding.
+
+ENG:	OK, good luck! Just remember, stay away from the sharp end! &[Press the < button to speed up. &[Press the { Button to fire a missile. &[Pick up crates to get more missiles.
+RUS:	OK, good luck! Just remember, stay away from the sharp end! &[Press the < button to speed up. &[Press the { Button to fire a missile. &[Pick up crates to get more missiles.
+
+ENG:	I don't blame you. I already owe seven years of kitchen duty, and I'm not about to risk getting another month!
+RUS:	I don't blame you. I already owe seven years of kitchen duty, and I'm not about to risk getting another month!
+
+ENG:	Wow! That's the first time Bluto has ever lost! You've got a lot of talent for someone so purple... I hope this egg was worth all the trouble.
+RUS:	Wow! That's the first time Bluto has ever lost! You've got a lot of talent for someone so purple... I hope this egg was worth all the trouble.
+

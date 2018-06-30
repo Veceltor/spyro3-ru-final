@@ -1,0 +1,66 @@
+----	80	----
+
+ENG:	Zoe
+RUS:	Zoe
+
+ENG:	Remember, to get your longest glide press the < button at the very top of your jump, and use the } button to hover at the end of your jump.
+RUS:	Remember, to get your longest glide press the < button at the very top of your jump, and use the } button to hover at the end of your jump.
+
+----	91	----
+
+ENG:	Zoe
+RUS:	Zoe
+
+ENG:	The metal armor those enemies are wearing protects them from your dragon flame. If you hold down the > button, you can defeat them with your charge attack.
+RUS:	The metal armor those enemies are wearing protects them from your dragon flame. If you hold down the > button, you can defeat them with your charge attack.
+
+----	119	----
+
+ENG:	Nimbus
+RUS:	Nimbus
+
+ENG:	The rhynocs have shut down our cloud generator and I'll never see a rainbow again.
+RUS:	The rhynocs have shut down our cloud generator and I'll never see a rainbow again.
+
+ENG:	You'd think the Sorceress would want more rain, after what the sun has done to her skin.
+RUS:	You'd think the Sorceress would want more rain, after what the sun has done to her skin.
+
+----	120	----
+
+ENG:	Cirrus
+RUS:	Cirrus
+
+ENG:	If my wings were big and strong like yours, I could easily glide across here. &[Press < button to jump. &[Then press < button in midair to glide.
+RUS:	If my wings were big and strong like yours, I could easily glide across here. &[Press < button to jump. &[Then press < button in midair to glide.
+
+----	127	----
+
+ENG:	Fluffy
+RUS:	Fluffy
+
+ENG:	Oh, you activated the bellows? Maybe I can get the cloud generator working again...
+RUS:	Oh, you activated the bellows? Maybe I can get the cloud generator working again...
+
+ENG:	The rhynocs must have been using this thing to clog up the cloud generator.
+RUS:	The rhynocs must have been using this thing to clog up the cloud generator.
+
+----	144	----
+
+ENG:	Moneybags
+RUS:	Moneybags
+
+ENG:	Well, well, if it isn't my favorite dragon! The Sorceress has put me in charge of guarding these bellows. However, I suppose I might look the other way if I was distracted by counting gems. &Pay ^^^ gems to activate bellows? &Sure, whatever. &No way, you doofus.
+RUS:	Well, well, if it isn't my favorite dragon! The Sorceress has put me in charge of guarding these bellows. However, I suppose I might look the other way if I was distracted by counting gems. &Pay ^^^ gems to activate bellows? &Sure, whatever. &No way, you doofus.
+
+ENG:	Oooooh yes... precious, precious gems... Well then, Spyro, you may now use the bellows any time you wish. Best of luck on your little egg hunt.
+RUS:	Oooooh yes... precious, precious gems... Well then, Spyro, you may now use the bellows any time you wish. Best of luck on your little egg hunt.
+
+ENG:	What? NO? What else are you going to do with all those gems? Buy flying lessons? (Heh heh) that was a good one...
+RUS:	What? NO? What else are you going to do with all those gems? Buy flying lessons? (Heh heh) that was a good one...
+
+ENG:	Sorry, Spyro, it is my sworn duty to make certain no one crosses these bellows. And you know perfectly well that nothing could ever sway me from obeying my sworn duty... that is, ahem, until you have a few more gems. &[Activating bellows costs ^^^ gems.
+RUS:	Sorry, Spyro, it is my sworn duty to make certain no one crosses these bellows. And you know perfectly well that nothing could ever sway me from obeying my sworn duty... that is, ahem, until you have a few more gems. &[Activating bellows costs ^^^ gems.
+
+ENG:	Heh heh... I haven't made such easy money since the Sorceress bought that mayonaisse for sunscreen.
+RUS:	Heh heh... I haven't made such easy money since the Sorceress bought that mayonaisse for sunscreen.
+

@@ -1,0 +1,89 @@
+----	12	----
+
+ENG:	Zoe
+RUS:	Zoe
+
+ENG:	This rhynoc is too big to charge. You'll have to flame him using the { button.
+RUS:	This rhynoc is too big to charge. You'll have to flame him using the { button.
+
+----	57	----
+
+ENG:	Zoe
+RUS:	Zoe
+
+ENG:	Hi Spyro! Each time a fairy zaps you, like this...
+RUS:	Hi Spyro! Each time a fairy zaps you, like this...
+
+ENG:	That means your progress is saved. If you get into trouble you'll return to the last place you got zapped.
+RUS:	That means your progress is saved. If you get into trouble you'll return to the last place you got zapped.
+
+----	111	----
+
+ENG:	Councillor George
+RUS:	Councillor George
+
+ENG:	Oh my! Oh my! Can you help us? Hordes of ferocious rhynocs have overrun our town and kidnapped the mayor.
+RUS:	Oh my! Oh my! Can you help us? Hordes of ferocious rhynocs have overrun our town and kidnapped the mayor.
+
+ENG:	Are you a dragon? I never believed you really existed.
+RUS:	Are you a dragon? I never believed you really existed.
+
+ENG:	Would you like a chicken sandwich? They're very good.
+RUS:	Would you like a chicken sandwich? They're very good.
+
+ENG:	Those pesky rhynocs are back again, but I'm sure you'll soon sort them out.
+RUS:	Those pesky rhynocs are back again, but I'm sure you'll soon sort them out.
+
+----	121	----
+
+ENG:	Citizen Paulus
+RUS:	Citizen Paulus
+
+ENG:	Let me catch my breath and I'll kick that other guy's butt.
+RUS:	Let me catch my breath and I'll kick that other guy's butt.
+
+ENG:	We showed those two bullies. If they hadn't outnumbered me two to one, I'd have finished them off ages ago.
+RUS:	We showed those two bullies. If they hadn't outnumbered me two to one, I'd have finished them off ages ago.
+
+ENG:	Have you seen any giant chickens around here?
+RUS:	Have you seen any giant chickens around here?
+
+----	122	----
+
+ENG:	Mayor Leo
+RUS:	Mayor Leo
+
+ENG:	Thank you for rescuing my town. As mayor I award you with one of our famous giant chicken eggs.
+RUS:	Thank you for rescuing my town. As mayor I award you with one of our famous giant chicken eggs.
+
+ENG:	I'm sorry, that was the ugliest chicken I've ever seen.
+RUS:	I'm sorry, that was the ugliest chicken I've ever seen.
+
+----	123	----
+
+ENG:	Citizen Horace
+RUS:	Citizen Horace
+
+ENG:	Whoo I'm dizzy.
+RUS:	Whoo I'm dizzy.
+
+ENG:	Thanks for the help, but I think I would have worn him down in a minute.
+RUS:	Thanks for the help, but I think I would have worn him down in a minute.
+
+ENG:	Have you seen any of our giant chickens? The rhynocs have been trying to eat them all.
+RUS:	Have you seen any of our giant chickens? The rhynocs have been trying to eat them all.
+
+ENG:	Look, a chicken turned up. I hope it's not the only one left.
+RUS:	Look, a chicken turned up. I hope it's not the only one left.
+
+----	148	----
+
+ENG:	To Whom it May Concern: Sheila the Kangaroo is currently otherwise detained -- by me. Please return in a few years.\      -The Sorceress
+RUS:	To Whom it May Concern: Sheila the Kangaroo is currently otherwise detained -- by me. Please return in a few years.\      -The Sorceress
+
+ENG:	Spyro, thanks for dropping by, but I'm currently busy in my home world. Come visit me there.\          -Sheila
+RUS:	Spyro, thanks for dropping by, but I'm currently busy in my home world. Come visit me there.\          -Sheila
+
+ENG:	Come on in!\     -Sheila
+RUS:	Come on in!\     -Sheila
+

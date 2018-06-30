@@ -1,0 +1,58 @@
+----	58	----
+
+ENG:	Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
+RUS:	Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
+
+----	69	----
+
+ENG:	Hunter
+RUS:	Hunter
+
+ENG:	Hi Spyro. I found this gladiator training arena and it makes a pretty cool skate park! Care for a test of your boarding skills? &Start boarding challenge now? &Yes. &No.
+RUS:	Hi Spyro. I found this gladiator training arena and it makes a pretty cool skate park! Care for a test of your boarding skills? &Start boarding challenge now? &Yes. &No.
+
+ENG:	Are you ready for a challenge now? &Start boarding challenge now? &Yes. &No.
+RUS:	Are you ready for a challenge now? &Start boarding challenge now? &Yes. &No.
+
+ENG:	I bet you can't catch all fifteen of the lizards running around here... Just come back if you want some boarding tips from the master. &[Catch the lizards.
+RUS:	I bet you can't catch all fifteen of the lizards running around here... Just come back if you want some boarding tips from the master. &[Catch the lizards.
+
+ENG:	Yeah, maybe you'd better practice a bit first... Just come back here when you're up for a challenge.
+RUS:	Yeah, maybe you'd better practice a bit first... Just come back here when you're up for a challenge.
+
+ENG:	Having trouble? If you use the < button to jump off the ramps you'll get extra height and distance.
+RUS:	Having trouble? If you use the < button to jump off the ramps you'll get extra height and distance.
+
+ENG:	Caught all the lizards yet? If you're having trouble catching them, don't be afraid to use your flame breath while on the skateboard.
+RUS:	Caught all the lizards yet? If you're having trouble catching them, don't be afraid to use your flame breath while on the skateboard.
+
+ENG:	Hey that was great! And while you were boarding, I found this in a lizard burrow.
+RUS:	Hey that was great! And while you were boarding, I found this in a lizard burrow.
+
+ENG:	Now that you've mastered the basics, let's see you do some stunts! Try using the < or } button to jump off ramps and turn in the air...
+RUS:	Now that you've mastered the basics, let's see you do some stunts! Try using the < or } button to jump off ramps and turn in the air...
+
+ENG:	This is the most fun I've had since we chased King Flippy on the manta ray.
+RUS:	This is the most fun I've had since we chased King Flippy on the manta ray.
+
+ENG:	Alright, if you can catch all the lizards without wiping out and before time runs out, I  might be able to scrounge up another egg. It's not gonna be easy, though... &Start difficult boarding challenge now? &Yes. &No.
+RUS:	Alright, if you can catch all the lizards without wiping out and before time runs out, I  might be able to scrounge up another egg. It's not gonna be easy, though... &Start difficult boarding challenge now? &Yes. &No.
+
+ENG:	If you want to try to catch those lizards, I'll start the clock now. &Start difficult boarding challenge now? &Yes. &No.
+RUS:	If you want to try to catch those lizards, I'll start the clock now. &Start difficult boarding challenge now? &Yes. &No.
+
+ENG:	Go get 'em, Spyro!
+RUS:	Go get 'em, Spyro!
+
+ENG:	Well whenever you're ready, come and talk to me.
+RUS:	Well whenever you're ready, come and talk to me.
+
+ENG:	Awww, too bad... maybe you'll do better this time. &Try difficult boarding challenge again? &Yes. &No.
+RUS:	Awww, too bad... maybe you'll do better this time. &Try difficult boarding challenge again? &Yes. &No.
+
+ENG:	Whoa, that was sweet! And look, there was another egg in the lizard burrow.
+RUS:	Whoa, that was sweet! And look, there was another egg in the lizard burrow.
+
+ENG:	You can go for the course record now, if you want. Whenever you hop on a skateboard, a timer will start. Score as many points as you can until the timer expires or you wipe out. Good luck!
+RUS:	You can go for the course record now, if you want. Whenever you hop on a skateboard, a timer will start. Score as many points as you can until the timer expires or you wipe out. Good luck!
+

@@ -1,0 +1,22 @@
+----	80	----
+
+ENG:	Bartholomew
+RUS:	Bartholomew
+
+ENG:	Hey, I think I saw some rhynocs run up to the top of that hill with an egg!
+RUS:	Hey, I think I saw some rhynocs run up to the top of that hill with an egg!
+
+ENG:	Heh, heh, that looked like it hurt. You should try using your spin move to deflect those barrels.
+RUS:	Heh, heh, that looked like it hurt. You should try using your spin move to deflect those barrels.
+
+ENG:	We sure made short work of those rhynocs! Aren't you glad I was here to help you rescue that baby dragon?
+RUS:	We sure made short work of those rhynocs! Aren't you glad I was here to help you rescue that baby dragon?
+
+----	89	----
+
+ENG:	Bentley
+RUS:	Bentley
+
+ENG:	Ah, a fine day for a bit of a walk. I was just heading to the top of my favorite hill...
+RUS:	Ah, a fine day for a bit of a walk. I was just heading to the top of my favorite hill...
+

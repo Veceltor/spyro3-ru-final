@@ -1,0 +1,27 @@
+----	57	----
+
+ENG:	Rapunzel
+RUS:	Rapunzel
+
+ENG:	What! Marco sent you here? I've got a restraining order against him.
+RUS:	What! Marco sent you here? I've got a restraining order against him.
+
+ENG:	If you see Marco please tell him I've moved out.
+RUS:	If you see Marco please tell him I've moved out.
+
+----	58	----
+
+ENG:	Sheila
+RUS:	Sheila
+
+ENG:	Hey Spyro, there are rhynocs everywhere. Maybe I can find some peace and quiet at the top of the tower...
+RUS:	Hey Spyro, there are rhynocs everywhere. Maybe I can find some peace and quiet at the top of the tower...
+
+----	66	----
+
+ENG:	Marco
+RUS:	Marco
+
+ENG:	Alas, I have lost my love, guarded by evil rhynocs at the top of yonder tower. Can you rescue her for me?
+RUS:	Alas, I have lost my love, guarded by evil rhynocs at the top of yonder tower. Can you rescue her for me?
+

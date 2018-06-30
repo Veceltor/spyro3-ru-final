@@ -1,0 +1,64 @@
+----	43	----
+
+ENG:	Awwwww, poor wittle dragon... did your friend go bye-bye? Now, now, don't worry... you'll soon be JOINING HIM!     -The Sorceress
+RUS:	Awwwww, poor wittle dragon... did your friend go bye-bye? Now, now, don't worry... you'll soon be JOINING HIM!     -The Sorceress
+
+----	59	----
+
+ENG:	Hunter
+RUS:	Hunter
+
+ENG:	Spyro, you're just in time! A rhynoc skateboard gang has challenged us to a race. They said you're slower than a Molten Crater fire slug. I stuck up for you, though! I told them I've seen some pretty fast fire slugs.
+RUS:	Spyro, you're just in time! A rhynoc skateboard gang has challenged us to a race. They said you're slower than a Molten Crater fire slug. I stuck up for you, though! I told them I've seen some pretty fast fire slugs.
+
+ENG:	So, are you ready to race these guys? They bet us an egg that you won't win! &Race the rhynocs? &Bring 'em on! &Some other time...
+RUS:	So, are you ready to race these guys? They bet us an egg that you won't win! &Race the rhynocs? &Bring 'em on! &Some other time...
+
+ENG:	Right on! You can use my special racing board. Every time you do a trick, it builds up turbo charge. You can use your turbos at any time by pressing the > button. Good luck! &[Do tricks to get turbos. &[Use turbos by pressing the > button. &[Beat all rhynocs in 3 lap race.
+RUS:	Right on! You can use my special racing board. Every time you do a trick, it builds up turbo charge. You can use your turbos at any time by pressing the > button. Good luck! &[Do tricks to get turbos. &[Use turbos by pressing the > button. &[Beat all rhynocs in 3 lap race.
+
+ENG:	Awww, shucks... I thought you'd want to race 'em. Well, just come talk to me if you change your mind.
+RUS:	Awww, shucks... I thought you'd want to race 'em. Well, just come talk to me if you change your mind.
+
+ENG:	Sheesh, what happened? I could beat these guys with my tail tied behind my back! I hope you do better this time, or we'll never live it down... &Race the rhynocs? &Bring 'em on! &Some other time...
+RUS:	Sheesh, what happened? I could beat these guys with my tail tied behind my back! I hope you do better this time, or we'll never live it down... &Race the rhynocs? &Bring 'em on! &Some other time...
+
+ENG:	Alright! Let 'em have it! &[Do tricks to get turbos. &[Use turbos by pressing the > button. &[Beat all rhynocs in 3 lap race.
+RUS:	Alright! Let 'em have it! &[Do tricks to get turbos. &[Use turbos by pressing the > button. &[Beat all rhynocs in 3 lap race.
+
+ENG:	Awww, shucks... I thought you'd want to race 'em. Well, just come talk to me if you change your mind.
+RUS:	Awww, shucks... I thought you'd want to race 'em. Well, just come talk to me if you change your mind.
+
+ENG:	Yeeesss!! You schooled 'em like a bunch of dizzy, one-toed sand gnorcs! ... Oh yeah, I guess we won this egg, too.
+RUS:	Yeeesss!! You schooled 'em like a bunch of dizzy, one-toed sand gnorcs! ... Oh yeah, I guess we won this egg, too.
+
+ENG:	Now that the rhynocs are gone, do you want to try a real challenge? I know you're fast, but I bet you can't defeat all the crabs on the course and still beat me in a race! Want to give it a shot? &Accept Hunter's challenge? &You're on, pal! &No dice...
+RUS:	Now that the rhynocs are gone, do you want to try a real challenge? I know you're fast, but I bet you can't defeat all the crabs on the course and still beat me in a race! Want to give it a shot? &Accept Hunter's challenge? &You're on, pal! &No dice...
+
+ENG:	Alright! Eat my skate-dust, sucker! &[Defeat all crabs on the course &[Beat Hunter in 3 lap race
+RUS:	Alright! Eat my skate-dust, sucker! &[Defeat all crabs on the course &[Beat Hunter in 3 lap race
+
+ENG:	Heh heh, what's the matter, getting chicken on me? Bwaaak bwaaak bwaaaaaak! Bwak bwaak bwak bwak bwaaaaaaaaaak!
+RUS:	Heh heh, what's the matter, getting chicken on me? Bwaaak bwaaak bwaaaaaak! Bwak bwaak bwak bwak bwaaaaaaaaaak!
+
+ENG:	So, are you ready to take my challenge? &Accept Hunter's challenge? &You're on, pal! &No dice...
+RUS:	So, are you ready to take my challenge? &Accept Hunter's challenge? &You're on, pal! &No dice...
+
+ENG:	Alright! Eat my skate-dust, sucker! &[Defeat all crabs on the course &[Beat Hunter in 3 lap race
+RUS:	Alright! Eat my skate-dust, sucker! &[Defeat all crabs on the course &[Beat Hunter in 3 lap race
+
+ENG:	Heh heh, you're just chicken aren't you? Bwaaak bwaaak bwaaaaaak! Bwak bwaak bwak bwak bwaaaaaaaaaak!
+RUS:	Heh heh, you're just chicken aren't you? Bwaaak bwaaak bwaaaaaak! Bwak bwaak bwak bwak bwaaaaaaaaaak!
+
+ENG:	OK, you beat me Spyro, but you didn't get all the crabs. A dragon of your pedigree should really be able to do both!
+RUS:	OK, you beat me Spyro, but you didn't get all the crabs. A dragon of your pedigree should really be able to do both!
+
+ENG:	Woooohooo! I'm still the speed king of the world!
+RUS:	Woooohooo! I'm still the speed king of the world!
+
+ENG:	Sheesh, I can't believe you beat me! You must have been practicing the whole time I thought you were looking for eggs... Hey, speaking of which, one of those crabs was guarding this one...
+RUS:	Sheesh, I can't believe you beat me! You must have been practicing the whole time I thought you were looking for eggs... Hey, speaking of which, one of those crabs was guarding this one...
+
+ENG:	You might be able to beat me at skateboarding, but I still get all the chicks.
+RUS:	You might be able to beat me at skateboarding, but I still get all the chicks.
+

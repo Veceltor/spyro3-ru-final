@@ -1,0 +1,45 @@
+----	150	----
+
+ENG:	Dan
+RUS:	Dan
+
+ENG:	Ahhh, yet another dare-devil adventurer has come to rob our catacombs of loot! Let's just hope you're made of tougher stuff than the last guy... If you can survive the trials of our catacombs and answer my riddle, we will give you a prize befitting your efforts.
+RUS:	Ahhh, yet another dare-devil adventurer has come to rob our catacombs of loot! Let's just hope you're made of tougher stuff than the last guy... If you can survive the trials of our catacombs and answer my riddle, we will give you a prize befitting your efforts.
+
+ENG:	Here is my riddle:\ I am a vessel without hinges, lock or lid,\ yet, within my walls, a golden treasure is hid.\ What am I?
+RUS:	Here is my riddle:\ I am a vessel without hinges, lock or lid,\ yet, within my walls, a golden treasure is hid.\ What am I?
+
+ENG:	Don't try to answer the riddle now. You'll need to save your breath to survive the trials of the catacombs.
+RUS:	Don't try to answer the riddle now. You'll need to save your breath to survive the trials of the catacombs.
+
+----	175	----
+
+ENG:	GET LOST, DRAGON! There is no 'Agent 9'. Take your conspiracy theories and go back where you came from!\      -The Sorceress
+RUS:	GET LOST, DRAGON! There is no 'Agent 9'. Take your conspiracy theories and go back where you came from!\      -The Sorceress
+
+ENG:	Lab's full o' rhynocs... gotta help professor...\        -Agent 9
+RUS:	Lab's full o' rhynocs... gotta help professor...\        -Agent 9
+
+ENG:	Come on in, it's laser time!\        -Agent 9
+RUS:	Come on in, it's laser time!\        -Agent 9
+
+----	177	----
+
+ENG:	Allgeier
+RUS:	Allgeier
+
+ENG:	I see you've managed to survive the trials of the catacombs. Now let's find out if your wits are as quick as your feet. Do you remember the riddle?
+RUS:	I see you've managed to survive the trials of the catacombs. Now let's find out if your wits are as quick as your feet. Do you remember the riddle?
+
+ENG:	I am a vessel without hinges, lock or lid,\ yet, within my walls, a golden treasure is hid.\ What am I? &A bone &An egg &A treasure chest &A bandicoot
+RUS:	I am a vessel without hinges, lock or lid,\ yet, within my walls, a golden treasure is hid.\ What am I? &A bone &An egg &A treasure chest &A bandicoot
+
+ENG:	Hmmmm... have you heard that one before? I never thought you'd get it. Very well, a bargain is a bargain. You may have the dragon egg that I was guarding from the Sorceress.
+RUS:	Hmmmm... have you heard that one before? I never thought you'd get it. Very well, a bargain is a bargain. You may have the dragon egg that I was guarding from the Sorceress.
+
+ENG:	Sorry, dragon, that's completely wrong. You can try again, but you'll never get it by merely guessing.
+RUS:	Sorry, dragon, that's completely wrong. You can try again, but you'll never get it by merely guessing.
+
+ENG:	I've waited seven thousand years for someone to solve that riddle... Now I can finally head off to Seashell Shore to bury some bones!
+RUS:	I've waited seven thousand years for someone to solve that riddle... Now I can finally head off to Seashell Shore to bury some bones!
+

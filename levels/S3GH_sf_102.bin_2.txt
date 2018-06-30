@@ -1,0 +1,17 @@
+----	27	----
+
+ENG:	Cumulus
+RUS:	Cumulus
+
+ENG:	Our sun has gone out. We can make a new one with our lava fusion cauldron and three sun seeds, but they keep burning out before we can get them in the pot.
+RUS:	Our sun has gone out. We can make a new one with our lava fusion cauldron and three sun seeds, but they keep burning out before we can get them in the pot.
+
+ENG:	Step on the switch to get a fresh sun seed and keep flaming it until you get it into the pot.
+RUS:	Step on the switch to get a fresh sun seed and keep flaming it until you get it into the pot.
+
+ENG:	Now that's what I call a sun! Here, you can have this last sun seed as a souvenir. I think it might be a dud, though.
+RUS:	Now that's what I call a sun! Here, you can have this last sun seed as a souvenir. I think it might be a dud, though.
+
+ENG:	If you can't keep up with the sun seed, remember you can always hold down the > button to charge. &[Press and hold > button to charge forward quickly.
+RUS:	If you can't keep up with the sun seed, remember you can always hold down the > button to charge. &[Press and hold > button to charge forward quickly.
+

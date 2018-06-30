@@ -1,0 +1,25 @@
+----	9	----
+
+ENG:	Sgt. Byrd
+RUS:	Sgt. Byrd
+
+ENG:	Good day, Spyro! I'd like to stay and chat, but I'm late for a... err... an engagement with a fairy friend of mine... err... she's just a friend, you understand... it's a strictly platonic relationship... it's certainly not a violation of military protocol whatsoever... What? What are you giving me that look for?
+RUS:	Good day, Spyro! I'd like to stay and chat, but I'm late for a... err... an engagement with a fairy friend of mine... err... she's just a friend, you understand... it's a strictly platonic relationship... it's certainly not a violation of military protocol whatsoever... What? What are you giving me that look for?
+
+----	11	----
+
+ENG:	Isabelle
+RUS:	Isabelle
+
+ENG:	Where have you been, James? We were supposed to meet in the temple an hour ago! And don't give me that old 'matters of national security' line again! ... I guess it doesn't matter, though... the whole temple is full of nasty cat witches, anyway. We'll just have to call off our date... that is, unless you want to battle the witches...
+RUS:	Where have you been, James? We were supposed to meet in the temple an hour ago! And don't give me that old 'matters of national security' line again! ... I guess it doesn't matter, though... the whole temple is full of nasty cat witches, anyway. We'll just have to call off our date... that is, unless you want to battle the witches...
+
+ENG:	So, I see those rocket launchers aren't just for show after all... Well, I just hope your accuracy is better than your punctuality, because there are still a lot more witches in the temple.
+RUS:	So, I see those rocket launchers aren't just for show after all... Well, I just hope your accuracy is better than your punctuality, because there are still a lot more witches in the temple.
+
+ENG:	I must admit, James, I am impressed... There are still a few witches left, though, and this time they mean business! They even turned the floor into deadly blue ooze. Oh, be careful, ok?
+RUS:	I must admit, James, I am impressed... There are still a few witches left, though, and this time they mean business! They even turned the floor into deadly blue ooze. Oh, be careful, ok?
+
+ENG:	You did it, James!!! I knew you weren't the leader of the Hummingbird Resistance Movement for nothing! Now we have the temple all to ourselves... but first, I have a present for you...
+RUS:	You did it, James!!! I knew you weren't the leader of the Hummingbird Resistance Movement for nothing! Now we have the temple all to ourselves... but first, I have a present for you...
+

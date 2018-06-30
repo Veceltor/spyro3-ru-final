@@ -1,0 +1,173 @@
+----	71	----
+
+ENG:	Zoe
+RUS:	Zoe
+
+ENG:	Hi Spyro and Sparx... I've found another lost egg! If Sparx is up to it, he can try to rescue it from Spider Town. &Enter Spider Town bonus world? &Yes. &No.
+RUS:	Hi Spyro and Sparx... I've found another lost egg! If Sparx is up to it, he can try to rescue it from Spider Town. &Enter Spider Town bonus world? &Yes. &No.
+
+ENG:	I wouldn't want to go back in there with all those creepy spiders...but if Sparx wants to check out Spider Town again, it's fine with me. &Return to Spider Town bonus world? &Yes. &No.
+RUS:	I wouldn't want to go back in there with all those creepy spiders...but if Sparx wants to check out Spider Town again, it's fine with me. &Return to Spider Town bonus world? &Yes. &No.
+
+ENG:	Excellent work Sparx, and I see that you've gained another new ability. Now if you hold down the @4L1,L2, R1 and R2@0 buttons at the same time, Sparx will point to any treasure still hanging around.
+RUS:	Excellent work Sparx, and I see that you've gained another new ability. Now if you hold down the @4L1,L2, R1 and R2@0 buttons at the same time, Sparx will point to any treasure still hanging around.
+
+ENG:	Yes.
+RUS:	Yes.
+
+ENG:	No.
+RUS:	No.
+
+----	85	----
+
+ENG:	Zoe
+RUS:	Zoe
+
+ENG:	Hi Spyro. This is a superflame powerup. You'll find more just like it scattered throughout all the worlds. Why don't you try this one out by using it to break all these planters. I think I saw a rhynoc hide an egg in one of them.
+RUS:	Hi Spyro. This is a superflame powerup. You'll find more just like it scattered throughout all the worlds. Why don't you try this one out by using it to break all these planters. I think I saw a rhynoc hide an egg in one of them.
+
+----	131	----
+
+ENG:	Sgt. Byrd
+RUS:	Sgt. Byrd
+
+ENG:	I've assessed the situation. We need five men to operate the whirligig.
+RUS:	I've assessed the situation. We need five men to operate the whirligig.
+
+ENG:	Quick march Spyro. We're off to the whirligig.
+RUS:	Quick march Spyro. We're off to the whirligig.
+
+ENG:	All systems checked out A-OK. Jump aboard.
+RUS:	All systems checked out A-OK. Jump aboard.
+
+ENG:	Thanks for freeing me. Why don't you come visit me in my home world?
+RUS:	Thanks for freeing me. Why don't you come visit me in my home world?
+
+----	135	----
+
+ENG:	Sing Sing
+RUS:	Sing Sing
+
+ENG:	We've finished repairing the whirligig, but we need more help to operate it.
+RUS:	We've finished repairing the whirligig, but we need more help to operate it.
+
+ENG:	Let's head on over to the whirligig.
+RUS:	Let's head on over to the whirligig.
+
+ENG:	You can use the whirligig whenever you are ready.
+RUS:	You can use the whirligig whenever you are ready.
+
+----	138	----
+
+ENG:	Spyro, I've got a special task for Sparx. Meet me back here later!           -Zoe
+RUS:	Spyro, I've got a special task for Sparx. Meet me back here later!           -Zoe
+
+----	139	----
+
+ENG:	Bianca
+RUS:	Bianca
+
+ENG:	Okay, dragon, you've managed to survive longer than I expected... but you haven't the slightest idea what sort of dangers lie ahead of you! I suggest you grab your cat friend and whatever eggs you have found and high-tail it back home while you still can... I'm telling you this for your own good, you know...
+RUS:	Okay, dragon, you've managed to survive longer than I expected... but you haven't the slightest idea what sort of dangers lie ahead of you! I suggest you grab your cat friend and whatever eggs you have found and high-tail it back home while you still can... I'm telling you this for your own good, you know...
+
+----	153	----
+
+ENG:	Hunter
+RUS:	Hunter
+
+ENG:	When you see a ladder, or walls that look climbable, just jump onto it and you'll grab it with your claws.
+RUS:	When you see a ladder, or walls that look climbable, just jump onto it and you'll grab it with your claws.
+
+----	157	----
+
+ENG:	Moneybags
+RUS:	Moneybags
+
+ENG:	Ahh, my good friend Spyro. The Sorceress caught this naughty bird letting off rockets in her fireworks factory, but I'm willing to release him into your custody... provided you pay his outstanding fines. &Pay ^^^ gems to free the penguin? &Of course. &Forget about it.
+RUS:	Ahh, my good friend Spyro. The Sorceress caught this naughty bird letting off rockets in her fireworks factory, but I'm willing to release him into your custody... provided you pay his outstanding fines. &Pay ^^^ gems to free the penguin? &Of course. &Forget about it.
+
+ENG:	Heh heh... what a sucker... err, that is... It's a far, far better thing you do today, Spyro, than you have ever done, and... err... well so forth, et cetera, you get the idea...
+RUS:	Heh heh... what a sucker... err, that is... It's a far, far better thing you do today, Spyro, than you have ever done, and... err... well so forth, et cetera, you get the idea...
+
+ENG:	Oh dear Spyro, you really should pay up. I think he's pining for the fjords.
+RUS:	Oh dear Spyro, you really should pay up. I think he's pining for the fjords.
+
+ENG:	Get away from me dragon, you've got no money! Come back when you find some gems... &[^^^ gems needed to free critter
+RUS:	Get away from me dragon, you've got no money! Come back when you find some gems... &[^^^ gems needed to free critter
+
+ENG:	...
+RUS:	...
+
+----	161	----
+
+ENG:	Hunter
+RUS:	Hunter
+
+ENG:	Hey, Spyro! Zoe told me that if we hit that doodad up there, the portal will open. Why don't you try spitting this rock at it?
+RUS:	Hey, Spyro! Zoe told me that if we hit that doodad up there, the portal will open. Why don't you try spitting this rock at it?
+
+ENG:	When you've picked up a rock, try using the } button to aim.
+RUS:	When you've picked up a rock, try using the } button to aim.
+
+ENG:	I'll see ya in there later.
+RUS:	I'll see ya in there later.
+
+----	172	----
+
+ENG:	Shiny
+RUS:	Shiny
+
+ENG:	You need five people\ To help with the whirligig.\ Find one in each world.
+RUS:	You need five people\ To help with the whirligig.\ Find one in each world.
+
+ENG:	Follow me, Spyro.\ The whirligig awaits you.\ The sky shall be yours!
+RUS:	Follow me, Spyro.\ The whirligig awaits you.\ The sky shall be yours!
+
+ENG:	Just hop on, Spyro.\ The sky shall be your domain.\ New worlds await you!
+RUS:	Just hop on, Spyro.\ The sky shall be your domain.\ New worlds await you!
+
+----	173	----
+
+ENG:	Jasper
+RUS:	Jasper
+
+ENG:	With guys from the five worlds we can work the whirligig.
+RUS:	With guys from the five worlds we can work the whirligig.
+
+ENG:	Hey now, let's head on over to the whirligig.
+RUS:	Hey now, let's head on over to the whirligig.
+
+ENG:	Hop aboard.
+RUS:	Hop aboard.
+
+----	174	----
+
+ENG:	Doug
+RUS:	Doug
+
+ENG:	If you can bring back one person from each of our five worlds, we can help you use the whirligig.
+RUS:	If you can bring back one person from each of our five worlds, we can help you use the whirligig.
+
+ENG:	Let's head on over to the whirligig.
+RUS:	Let's head on over to the whirligig.
+
+ENG:	The whirligig is ready to take you far way. Just jump aboard.
+RUS:	The whirligig is ready to take you far way. Just jump aboard.
+
+----	180	----
+
+ENG:	Sgt. Byrd
+RUS:	Sgt. Byrd
+
+ENG:	I've assessed the situation. We need five men to operate the whirligig.
+RUS:	I've assessed the situation. We need five men to operate the whirligig.
+
+ENG:	Quick march Spyro. We're off to the whirligig.
+RUS:	Quick march Spyro. We're off to the whirligig.
+
+ENG:	All systems checked out A-OK. Jump aboard.
+RUS:	All systems checked out A-OK. Jump aboard.
+
+ENG:	Thanks for freeing me. Why don't you come visit me in my home world?
+RUS:	Thanks for freeing me. Why don't you come visit me in my home world?
+

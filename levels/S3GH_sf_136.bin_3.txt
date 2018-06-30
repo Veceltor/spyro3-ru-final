@@ -1,0 +1,29 @@
+----	5	----
+
+ENG:	Errol
+RUS:	Errol
+
+ENG:	I challenged a rhynoc to a traditional game of cat hockey, but I think I sprained my flipper during training. Would you mind taking my place? &Will you play cat hockey? &Yes. &No.
+RUS:	I challenged a rhynoc to a traditional game of cat hockey, but I think I sprained my flipper during training. Would you mind taking my place? &Will you play cat hockey? &Yes. &No.
+
+ENG:	Great, freeze the cats and push them into my goal to score. &[Push frozen cats into the blue goal. &[First one with 5 cats wins.
+RUS:	Great, freeze the cats and push them into my goal to score. &[Push frozen cats into the blue goal. &[First one with 5 cats wins.
+
+ENG:	But if I can't find anyone to play for me I'll forfeit the championship.
+RUS:	But if I can't find anyone to play for me I'll forfeit the championship.
+
+ENG:	Don't waste time talking to me, he's gonna score.
+RUS:	Don't waste time talking to me, he's gonna score.
+
+ENG:	Well done, I think you deserve to keep the champion's cup.
+RUS:	Well done, I think you deserve to keep the champion's cup.
+
+ENG:	You gave that rhynoc such a drubbing he's retired from the sport for good.
+RUS:	You gave that rhynoc such a drubbing he's retired from the sport for good.
+
+ENG:	You should ask for a rematch. I think that guy sprayed catnip in his goal. &Are you ready to play again? &Yes. &No.
+RUS:	You should ask for a rematch. I think that guy sprayed catnip in his goal. &Are you ready to play again? &Yes. &No.
+
+ENG:	That rhynoc has been gloating ever since he beat you, but I think it was just a fluke. You should ask for a rematch! &Are you ready to play again? &Yes. &No.
+RUS:	That rhynoc has been gloating ever since he beat you, but I think it was just a fluke. You should ask for a rematch! &Are you ready to play again? &Yes. &No.
+

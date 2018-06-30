@@ -1,0 +1,71 @@
+----	59	----
+
+ENG:	Jack
+RUS:	Jack
+
+ENG:	According to legends, there's a golden goose at the top of this here mountain. I want to be the first person to the top, so I can grab it!
+RUS:	According to legends, there's a golden goose at the top of this here mountain. I want to be the first person to the top, so I can grab it!
+
+ENG:	By the way, if you can't figure out what to do next, we can always start over. &Start the puzzle over? &Yes. &No.
+RUS:	By the way, if you can't figure out what to do next, we can always start over. &Start the puzzle over? &Yes. &No.
+
+ENG:	OK, here are your seeds again.
+RUS:	OK, here are your seeds again.
+
+ENG:	Well, good luck. It's got me stumped.
+RUS:	Well, good luck. It's got me stumped.
+
+ENG:	I just bought some insta-sprout-ultra-super-grow seeds from a bear with a bag of gems. He said they were magic, but I can't make them do anything. You can have a couple, if you like.
+RUS:	I just bought some insta-sprout-ultra-super-grow seeds from a bear with a bag of gems. He said they were magic, but I can't make them do anything. You can have a couple, if you like.
+
+----	65	----
+
+ENG:	Jack
+RUS:	Jack
+
+ENG:	At last! I've found the legendary golden goose! You can have another one of its eggs for a souvenir!
+RUS:	At last! I've found the legendary golden goose! You can have another one of its eggs for a souvenir!
+
+ENG:	That's the ugliest goose I've ever seen!
+RUS:	That's the ugliest goose I've ever seen!
+
+----	66	----
+
+ENG:	Jack
+RUS:	Jack
+
+ENG:	According to legends, there's a golden goose at the top of this here mountain. I want to be the first person to the top, so I can grab it!
+RUS:	According to legends, there's a golden goose at the top of this here mountain. I want to be the first person to the top, so I can grab it!
+
+ENG:	By the way, if you can't figure out what to do next, we can always start over. &Start the puzzle over? &Yes. &No.
+RUS:	By the way, if you can't figure out what to do next, we can always start over. &Start the puzzle over? &Yes. &No.
+
+ENG:	OK, here are your seeds again.
+RUS:	OK, here are your seeds again.
+
+ENG:	Well, good luck. It's got me stumped.
+RUS:	Well, good luck. It's got me stumped.
+
+ENG:	I just bought some insta-sprout-ultra-super-grow seeds from a bear with a bag of gems. He said they were magic, but I can't make them do anything. You can have a couple, if you like.
+RUS:	I just bought some insta-sprout-ultra-super-grow seeds from a bear with a bag of gems. He said they were magic, but I can't make them do anything. You can have a couple, if you like.
+
+----	70	----
+
+ENG:	Jack
+RUS:	Jack
+
+ENG:	pant... pant... I found this egg on the way up here... I think it was laid by a golden goose! We'll have to keep going... We're almost to the top!
+RUS:	pant... pant... I found this egg on the way up here... I think it was laid by a golden goose! We'll have to keep going... We're almost to the top!
+
+ENG:	You've been doing great so far, why don't you take two more seeds?
+RUS:	You've been doing great so far, why don't you take two more seeds?
+
+ENG:	If you get stuck, we can always restart this section. &Restart this part of puzzle? &Yes. &No.
+RUS:	If you get stuck, we can always restart this section. &Restart this part of puzzle? &Yes. &No.
+
+ENG:	OK, here are your seeds again.
+RUS:	OK, here are your seeds again.
+
+ENG:	OK, best of luck! These here thinking puzzles are too tough for me. I prefer action gameplay.
+RUS:	OK, best of luck! These here thinking puzzles are too tough for me. I prefer action gameplay.
+

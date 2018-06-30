@@ -1,0 +1,25 @@
+----	80	----
+
+ENG:	Ali
+RUS:	Ali
+
+ENG:	Behind this door lie the five deadly trials of King Rover. No one has ever survived all five. In fact, it is so dangerous that I cannot let you through this first door unless you are able to solve my riddle...
+RUS:	Behind this door lie the five deadly trials of King Rover. No one has ever survived all five. In fact, it is so dangerous that I cannot let you through this first door unless you are able to solve my riddle...
+
+ENG:	Here's the riddle:\ I follow you wherever you go,\ but the more of me you take,\ the more you leave behind.\ &What am I? &a shadow &time &a giant lizard &footsteps
+RUS:	Here's the riddle:\ I follow you wherever you go,\ but the more of me you take,\ the more you leave behind.\ &What am I? &a shadow &time &a giant lizard &footsteps
+
+ENG:	My my, you're quite clever for someone with so little fashion sense... You may proceed to the first trial.
+RUS:	My my, you're quite clever for someone with so little fashion sense... You may proceed to the first trial.
+
+ENG:	I'm sorry, my simian friend, but that was not even close. Perhaps you would prefer to go play with a nice bouncy ball.
+RUS:	I'm sorry, my simian friend, but that was not even close. Perhaps you would prefer to go play with a nice bouncy ball.
+
+----	117	----
+
+ENG:	Agent 9
+RUS:	Agent 9
+
+ENG:	One of those dogs with the funny hats put a curse on me, just 'cause I shot him in the butt a couple times. He said he turned my tail into a snake. Does it look like a snake to you? It does feel kinda funny, come to think of it. Hoo boy, that dog's gonna pay!
+RUS:	One of those dogs with the funny hats put a curse on me, just 'cause I shot him in the butt a couple times. He said he turned my tail into a snake. Does it look like a snake to you? It does feel kinda funny, come to think of it. Hoo boy, that dog's gonna pay!
+
