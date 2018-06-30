@@ -79,11 +79,11 @@ RUS:	Гляди, одна курочка нашлась. Надеюсь, уце�
 ----	148	----
 
 ENG:	To Whom it May Concern: Sheila the Kangaroo is currently otherwise detained -- by me. Please return in a few years.\      -The Sorceress
-RUS:	To Whom it May Concern: Sheila the Kangaroo is currently otherwise detained -- by me. Please return in a few years.\      -The Sorceress
+Тем, Кто Интересуется: Кенгуру Шейла сейчас заперта -- у меня. Возвращайтесь через несколько лет.\ -Колдунья  //"Тем, Кто Интересуется: Кенгуру Шейла уже приговорена мной и мотает срок. Возвращайтесь через пару лет.\ -Колдунья"
 
 ENG:	Spyro, thanks for dropping by, but I'm currently busy in my home world. Come visit me there.\          -Sheila
-RUS:	Spyro, thanks for dropping by, but I'm currently busy in my home world. Come visit me there.\          -Sheila
+RUS:	Спайро, спасибо, что заскочил, но у меня дела в родном мире. Навести меня там.\ -Шейла
 
 ENG:	Come on in!\     -Sheila
-RUS:	Come on in!\     -Sheila
+RUS:	Заходи!\ -Шейла
 
