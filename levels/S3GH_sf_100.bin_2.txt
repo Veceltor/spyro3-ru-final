@@ -4,10 +4,10 @@ ENG:	Rapunzel
 RUS:	Rapunzel
 
 ENG:	What! Marco sent you here? I've got a restraining order against him.
-RUS:	What! Marco sent you here? I've got a restraining order against him.
+RUS:	Что! Тебя прислал Флино? Вообще-то, он здесь - персона нон грата.
 
 ENG:	If you see Marco please tell him I've moved out.
-RUS:	If you see Marco please tell him I've moved out.
+RUS:	Если увидишь Флино - передай ему, что я переехала.
 
 ----	58	----
 
@@ -15,7 +15,7 @@ ENG:	Sheila
 RUS:	Sheila
 
 ENG:	Hey Spyro, there are rhynocs everywhere. Maybe I can find some peace and quiet at the top of the tower...
-RUS:	Hey Spyro, there are rhynocs everywhere. Maybe I can find some peace and quiet at the top of the tower...
+RUS:	Эй, Спайро, эти носороги ну просто повсюду. Может хоть наверху башни получится от них отдохнуть.
 
 ----	66	----
 
@@ -23,5 +23,5 @@ ENG:	Marco
 RUS:	Marco
 
 ENG:	Alas, I have lost my love, guarded by evil rhynocs at the top of yonder tower. Can you rescue her for me?
-RUS:	Alas, I have lost my love, guarded by evil rhynocs at the top of yonder tower. Can you rescue her for me?
+RUS:	Увы, я потерял свою любимую, её охраняют злые носороги на вершине вон той башни. Ты можешь её для меня вызволить?
 

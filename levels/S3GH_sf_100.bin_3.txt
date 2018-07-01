@@ -1,7 +1,7 @@
 ----	58	----
 
 ENG:	Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
-RUS:	Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
+RUS:	Вниманию дракона: если ещё желаешь увидать своего паршивого кота, то проваливай отсюда сейчас!\ -The Sorceress
 
 ----	69	----
 
@@ -9,50 +9,50 @@ ENG:	Hunter
 RUS:	Hunter
 
 ENG:	Hi Spyro. I found this gladiator training arena and it makes a pretty cool skate park! Care for a test of your boarding skills? &Start boarding challenge now? &Yes. &No.
-RUS:	Hi Spyro. I found this gladiator training arena and it makes a pretty cool skate park! Care for a test of your boarding skills? &Start boarding challenge now? &Yes. &No.
+RUS:	Здарова, Спайро. Я отыскал арену гладиаторов, а из неё вышел классный скейтпарк! Поупражняешься на скейте? &Прыгнешь на скейт? &Да &Нет
 
 ENG:	Are you ready for a challenge now? &Start boarding challenge now? &Yes. &No.
-RUS:	Are you ready for a challenge now? &Start boarding challenge now? &Yes. &No.
+RUS:	Ну что, надумал наконец-то? &Прыгнешь на скейт? &Да &Нет
 
 ENG:	I bet you can't catch all fifteen of the lizards running around here... Just come back if you want some boarding tips from the master. &[Catch the lizards.
-RUS:	I bet you can't catch all fifteen of the lizards running around here... Just come back if you want some boarding tips from the master. &[Catch the lizards.
+RUS:	Спорим, тебе не поймать 15 ящериц, что бегают где-то здесь... Если нужен совет спеца по скейтам, обращайся. &[Поймай ящериц. 
 
 ENG:	Yeah, maybe you'd better practice a bit first... Just come back here when you're up for a challenge.
-RUS:	Yeah, maybe you'd better practice a bit first... Just come back here when you're up for a challenge.
+RUS:	Да, может тогда сперва потренируешься? А как созреешь для чего посерьёзней - приходи.
 
 ENG:	Having trouble? If you use the < button to jump off the ramps you'll get extra height and distance.
-RUS:	Having trouble? If you use the < button to jump off the ramps you'll get extra height and distance.
+RUS:	Проблемы? Держи кнопку крест при прыжке с трамплина – так пролетишь гораздо выше и дальше.
 
 ENG:	Caught all the lizards yet? If you're having trouble catching them, don't be afraid to use your flame breath while on the skateboard.
-RUS:	Caught all the lizards yet? If you're having trouble catching them, don't be afraid to use your flame breath while on the skateboard.
+RUS:	Всё гоняешься за ящерками? Если вдруг не ловятся – не бойся их поджаривать прямо со скейта.
 
 ENG:	Hey that was great! And while you were boarding, I found this in a lizard burrow.
-RUS:	Hey that was great! And while you were boarding, I found this in a lizard burrow.
+RUS:	Эй, вот это крутяк! И пока ты там катался, я кое-чего откопал в норке ящерицы.
 
 ENG:	Now that you've mastered the basics, let's see you do some stunts! Try using the < or } button to jump off ramps and turn in the air...
-RUS:	Now that you've mastered the basics, let's see you do some stunts! Try using the < or } button to jump off ramps and turn in the air...
+RUS:	Теперь, когда ты знаешь азы, давай освоим несколько трюков! Попробуй нажать < или } чтобы прыгнуть с трамплина и крутануться в воздухе.
 
 ENG:	This is the most fun I've had since we chased King Flippy on the manta ray.
-RUS:	This is the most fun I've had since we chased King Flippy on the manta ray.
+RUS:	Круче на скейте кататься, чем на скате за Флиппи гонятся!
 
 ENG:	Alright, if you can catch all the lizards without wiping out and before time runs out, I  might be able to scrounge up another egg. It's not gonna be easy, though... &Start difficult boarding challenge now? &Yes. &No.
-RUS:	Alright, if you can catch all the lizards without wiping out and before time runs out, I  might be able to scrounge up another egg. It's not gonna be easy, though... &Start difficult boarding challenge now? &Yes. &No.
+RUS:	Хорошо, если за три минуты ты поймаешь всех ящерок и не рухнешь со скейта, может быть, я и раздобуду ещё одно яйцо. Уж и нелегко тебе придется… &Начнёшь сложный этап? &Да &Нет
 
 ENG:	If you want to try to catch those lizards, I'll start the clock now. &Start difficult boarding challenge now? &Yes. &No.
-RUS:	If you want to try to catch those lizards, I'll start the clock now. &Start difficult boarding challenge now? &Yes. &No.
+RUS:	Если собрался ловить ящериц - я запускаю таймер. &Начнёшь сложный этап? &Да &Нет
 
 ENG:	Go get 'em, Spyro!
-RUS:	Go get 'em, Spyro!
+RUS:	Поймай их, Спайро!
 
 ENG:	Well whenever you're ready, come and talk to me.
-RUS:	Well whenever you're ready, come and talk to me.
+RUS:	Ну чё, как будешь готов - сообщи.
 
 ENG:	Awww, too bad... maybe you'll do better this time. &Try difficult boarding challenge again? &Yes. &No.
-RUS:	Awww, too bad... maybe you'll do better this time. &Try difficult boarding challenge again? &Yes. &No.
+RUS:	Ой, отстой... Может, в этот раз получится? &Начнёшь сложный этап? &Да &Нет
 
 ENG:	Whoa, that was sweet! And look, there was another egg in the lizard burrow.
-RUS:	Whoa, that was sweet! And look, there was another egg in the lizard burrow.
+RUS:	Это отпад! Гляди-ка, а в норке у ящерицы было два яйца!
 
 ENG:	You can go for the course record now, if you want. Whenever you hop on a skateboard, a timer will start. Score as many points as you can until the timer expires or you wipe out. Good luck!
-RUS:	You can go for the course record now, if you want. Whenever you hop on a skateboard, a timer will start. Score as many points as you can until the timer expires or you wipe out. Good luck!
+RUS:	Попробуй поставить новый рекорд, если хочешь. Когда встанешь на скейт, включится таймер. Набери как можно больше очков, прежде чем закончится время. Удачи!
 
