@@ -4,7 +4,7 @@ ENG:	Zoe
 RUS:	Zoe
 
 ENG:	Remember, to get your longest glide press the < button at the very top of your jump, and use the } button to hover at the end of your jump.
-RUS:	Remember, to get your longest glide press the < button at the very top of your jump, and use the } button to hover at the end of your jump.
+RUS:	Не забудь, чтобы лететь дальше, нажимай крест в самом пике прыжка, а в конце полёта нажми треугольник, чтобы подняться повыше.
 
 ----	91	----
 
@@ -12,7 +12,7 @@ ENG:	Zoe
 RUS:	Zoe
 
 ENG:	The metal armor those enemies are wearing protects them from your dragon flame. If you hold down the > button, you can defeat them with your charge attack.
-RUS:	The metal armor those enemies are wearing protects them from your dragon flame. If you hold down the > button, you can defeat them with your charge attack.
+RUS:	Этих врагов от твоего пламени защищает стальная броня. Ты с ними справишься, если протаранишь их с разбега, нажав круг. / Но ты сразишь их, если протаранишь с разбега, нажав квадрат.
 
 ----	119	----
 
@@ -20,10 +20,10 @@ ENG:	Nimbus
 RUS:	Nimbus
 
 ENG:	The rhynocs have shut down our cloud generator and I'll never see a rainbow again.
-RUS:	The rhynocs have shut down our cloud generator and I'll never see a rainbow again.
+RUS:	Носороги заглушили наш генератор облаков, и теперь я никогда не увижу радугу.
 
 ENG:	You'd think the Sorceress would want more rain, after what the sun has done to her skin.
-RUS:	You'd think the Sorceress would want more rain, after what the sun has done to her skin.
+RUS:	Казалось бы, Колдунье захочется ливня, после того, что солнце сделало с её кожей.
 
 ----	120	----
 
@@ -31,7 +31,7 @@ ENG:	Cirrus
 RUS:	Cirrus
 
 ENG:	If my wings were big and strong like yours, I could easily glide across here. &[Press < button to jump. &[Then press < button in midair to glide.
-RUS:	If my wings were big and strong like yours, I could easily glide across here. &[Press < button to jump. &[Then press < button in midair to glide.
+RUS:	Были б мои крылышки большими и сильными, как твои - я бы запросто тут пролетел. &[Нажми < и подпрыгни. В прыжке нажми его снова, чтобы перелететь.
 
 ----	127	----
 
@@ -39,10 +39,10 @@ ENG:	Fluffy
 RUS:	Fluffy
 
 ENG:	Oh, you activated the bellows? Maybe I can get the cloud generator working again...
-RUS:	Oh, you activated the bellows? Maybe I can get the cloud generator working again...
+RUS:	О, ты запустил меха? Может, теперь я смогу включить наш генератор облаков…
 
 ENG:	The rhynocs must have been using this thing to clog up the cloud generator.
-RUS:	The rhynocs must have been using this thing to clog up the cloud generator.
+RUS:	Похоже, этой штукой носороги и заткнули наш генератор.
 
 ----	144	----
 
@@ -50,17 +50,17 @@ ENG:	Moneybags
 RUS:	Moneybags
 
 ENG:	Well, well, if it isn't my favorite dragon! The Sorceress has put me in charge of guarding these bellows. However, I suppose I might look the other way if I was distracted by counting gems. &Pay ^^^ gems to activate bellows? &Sure, whatever. &No way, you doofus.
-RUS:	Well, well, if it isn't my favorite dragon! The Sorceress has put me in charge of guarding these bellows. However, I suppose I might look the other way if I was distracted by counting gems. &Pay ^^^ gems to activate bellows? &Sure, whatever. &No way, you doofus.
+RUS:	Так-так, неужели это мой любимый дракон! Колдунья поручила мне не сводить глаз с этих мехов. Но, знаешь... ничто не отвлекает сильнее пересчёта камней. &Заплатишь ^^^ камней, чтобы запустить меха? &Да, конечно. &За кого ты меня держишь?
 
 ENG:	Oooooh yes... precious, precious gems... Well then, Spyro, you may now use the bellows any time you wish. Best of luck on your little egg hunt.
-RUS:	Oooooh yes... precious, precious gems... Well then, Spyro, you may now use the bellows any time you wish. Best of luck on your little egg hunt.
+RUS:	О-о-о да... мои прелестные, прелес-с-стные самоцве-е-еты... А, ну да, конечно, Спайро, можешь залезать на меха, когда пожелаешь. Удачи в охоте за яичками.
 
 ENG:	What? NO? What else are you going to do with all those gems? Buy flying lessons? (Heh heh) that was a good one...
-RUS:	What? NO? What else are you going to do with all those gems? Buy flying lessons? (Heh heh) that was a good one...
+RUS:	Что? НЕТ? Но что ты будешь делать с этими камнями? Заплатишь за уроки полётов? Хе-хе, неплохо сказано…
 
 ENG:	Sorry, Spyro, it is my sworn duty to make certain no one crosses these bellows. And you know perfectly well that nothing could ever sway me from obeying my sworn duty... that is, ahem, until you have a few more gems. &[Activating bellows costs ^^^ gems.
-RUS:	Sorry, Spyro, it is my sworn duty to make certain no one crosses these bellows. And you know perfectly well that nothing could ever sway me from obeying my sworn duty... that is, ahem, until you have a few more gems. &[Activating bellows costs ^^^ gems.
+RUS:	Прости, Спайро, но это мой долг - неусыпно стоять на страже мехов. И ты отлично знаешь: ничто и никогда не заставит меня от него отступиться! Ну разве что... если бы у тебя было чуть-чуть побольше сверкающих камешков… &[Подкуп обойдётся в ^^^ камней.
 
 ENG:	Heh heh... I haven't made such easy money since the Sorceress bought that mayonaisse for sunscreen.
-RUS:	Heh heh... I haven't made such easy money since the Sorceress bought that mayonaisse for sunscreen.
+RUS:	Хе-хе... Я не получал деньги так легко с тех пор, как продал Колдунье майонез от загара.
 

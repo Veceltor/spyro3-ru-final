@@ -4,8 +4,8 @@ ENG:	Stratus
 RUS:	Stratus
 
 ENG:	We usually wake up our rain cloud at the crack of dawn, but these mischievous spirits are stopping our bells from ringing. &[Use the superfly powerup to flame the spirits in the belltowers.
-RUS:	We usually wake up our rain cloud at the crack of dawn, but these mischievous spirits are stopping our bells from ringing. &[Use the superfly powerup to flame the spirits in the belltowers.
+RUS:	Обычно мы будим дождевое облако на рассвете, но эти проказливые духи мешают нашим колоколам звонить. &[Шагай через усилитель полёта и подпали духов в колокольных башнях. 
 
 ENG:	Do you want this doodad? It fell out of the belfry.
-RUS:	Do you want this doodad? It fell out of the belfry.
+RUS:	Тебе нужна эта безделушка? Она выпала из колокольни.
 
