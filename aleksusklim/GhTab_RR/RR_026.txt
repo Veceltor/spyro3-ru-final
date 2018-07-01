@@ -1,0 +1,128 @@
+
+> -
++ 
++ -
+
+> -
++ 
++ -
+
+> jackie
++ 
++ -
+
+> King Flippy
++ The Water Workers have kidnapped six of my children and hidden them in the tops of these numbered towers. I borrowed some explosives to blast the doors off the towers...
++ If you can make it to the top of the six numbered towers, my children will be safe. &[Reach the tops of the towers. &[The towers will open in order.
++ You did it! Now we can swim in peace! I heard that you are collecting these orbs. Please take this one.
++ 
++ Every time you make it to the top of a tower, I'll blow the door off the next one.
++ -
+
+> Moneybags
++ Hi, Spyro. You must be tougher than you look to get here. All the same, you won't be able to get past the @4metal sharks@0 up ahead... I suppose I could let you borrow my submarine though... For a modest fee, of course. &Rent the sub for ^^^ gems?&It's a deal&No deal
++ A pleasure doing business with you, Spyro. This submarine is 100 percent shark-proof. I guarantee it!
++ Suit yourself. Just don't go swimming through the tunnel. Those metal sharks are quite indestructible.
++ Sorry, come back when you have more gems and I'll give you unlimited use of my shark-proof submarine. It's the only way to get through that tunnel alive. &[Shark sub rental costs ^^^ gems.
++ Hop aboard, Spyro!
++ -
+
+> Hunter
++ I've been trying to tame my new pet manta ray, but he just won't obey me. Hey, you're just about the right size to ride on his back... &Ready to tame the manta ray?&You bet!&Maybe later
++ Great! Hop on his back and guide him through each of the rings of bubbles as it appears. And remember, he's brand new, so try not to get him dented or scratched up. &[Ride manta ray through course.
++ Too chicken, huh? That's OK. Maybe you can come back and ride him later.
++ A dragon like you should have pretty good reflexes, even underwater. How about trying out my manta ray? &Try the manta ray?&Sure&Maybe later
++ Pretty wild ride, eh?&Do you want another shot?&Sure&No way
++ OK, good luck this time!
++ Well, at least you tried. Come back later if you want another chance.
++ Well done! I suppose I owe you something for that... Here, take this orb, I found it in one of my flippers.
++ Incredible! You've got real talent. I could use a partner like you. You can have the orb I found in my other flipper too.
++ Sorry pal, I don't have any new jobs for you...at the moment.
++ Now that the manta ray's tamed I'd love to get him into racing shape. Care to take him through a harder course? &Try harder course?&You bet&Some other time
++ OK, good luck! &[Guide ray through tough course.
++ OK, come back whenever you like!
++ Pretty wild ride, eh?&Do you want another shot?&Sure&No way
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
+
+> Ripple the Seahorse
++ The funny looking guys with the shock sticks have drained all our water! We can't get it back unless someone activates the switches they're guarding.
++ The shock stick guys are tough... Yesterday they turned Verne, our giant squid, into fried calamari...
++ -
++ -
++ -
++ -
+
+> Hoppo the Seahorse
++ Our world is wet again! We all want you to have this talisman of Aquaria Towers to remember us by!
++ 
++ -
++ -
++ -
++ -
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
++ ?
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
++ ?
++ ?
+
+> -
++ -
++ -
++ -
++ -
++ -
++ -
++ 
