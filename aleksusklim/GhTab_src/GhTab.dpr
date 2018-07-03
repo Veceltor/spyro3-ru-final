@@ -7,6 +7,6 @@ uses
 
 
 begin
-  Project(Proj_GhTab, 'GhTab v1.0');
+  Project(Proj_GhTab, 'GhTab v1.1');
 end.
 

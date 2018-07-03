@@ -1,0 +1,34 @@
+
+* 1
+
+> Elora
++ Spyro, Ripto's still alive and he's locked us out of the castle! Even worse, he's stolen our new power crystal for the superportal!
++ If you can collect enough orbs, you'll be able to get the power crystal back from Ripto and we can send you to Dragon Shores.
++ Spyro, keep collecting those orbs! We can't send you to Dragon Shores until you have enough. Not only will the orbs help power the superportal but they'll help you break into the castle!
+
+> Moneybags
++ One last speedway adventure for you, Spyro? It's not that expensive, you know... &Pay ^^^ to go to Canyon Speedway? &Sure&No deal
++ You've chosen wisely! I bet a quick dragon like you will win your money back in no time!
++ OK, come back when you want to do some racing.
++ There's another speedway through this portal Spyro, and it's the best speedway of them all, or so I've heard...no matter though, you'll need more treasure than that to get in. &[^^^ needed for Canyon Speedway.
+
+> Moneybags
++ Well Spyro it comes down to this. There's only one more thing I can teach you...and like all the best things, it doesn't come cheap... &pay 1000 to learn headbash?&Sure&Maybe Later
++ The @4headbash@0 move is very simple really...all you must do is jump, then press the } button.
++ Seems like an inopportune time to be a spendthrift, Spyro, but I'll be here, rest assured.
++ I'm afraid your treasure total is not quite high enough to learn your final move Spyro. I'm sure you'll have it soon enough. &[Headbash move costs 1000 gems.
++ You'll find the headbash may help you out on some tasks that were impossible before. Remember, just jump, then }. Good luck!
+
+> Professor
++ I was so close Spyro, but now Ripto's got the power crystal. And this portal here, it needs even more orbs than you've got in order to work... &[You need ^^ orbs to use this portal.
++ Well it's some consolation that you've collected so many orbs. My high tech portal here will take you to Cloud Temples...
++ I'm so disappointed...my superportal was coming along marvelously...
+
+> Professor
++ Ahh Spyro, so close and yet so far. This portal is terribly touchy, and you'll need to gather more orbs to use it. &[Need ^^ orbs for portal.
++ I can see you've learned the value of orbs Spyro! This touchy gate should work perfectly with the help of your impressive orb collection.
++ We're counting on you Spyro, and I'm doing my best to get that superportal working again, I promise!
+
+> Elora
++ Well nobody said Ripto was brave...he's locked himself behind this door. The Professor thinks that only a very large collection of orbs will open it. &[Need ^^ orbs to open door.
++ Alright Spyro! You've got the orbs...defeat of Ripto is only moments away, right? Right? Well anyway good luck, he's right through this door!

@@ -351,6 +351,7 @@ begin
     end;
     if (FSize > 0) and (FStream.Write(FBuffer^, FSize) <> FSize) then
     begin
+      Writeln(GetLastError());
       Result := 0;
       FOffset := -1;
       Exit;

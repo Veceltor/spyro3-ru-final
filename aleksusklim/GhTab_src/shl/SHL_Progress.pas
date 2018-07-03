@@ -34,7 +34,6 @@ begin
   FOldPrint := FOldValue;
   FMinimal := MinValue;
   FBody := (MaxValue - MinValue);
-  Show(0);
   Ignore(Timeout);
 end;
 

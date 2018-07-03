@@ -1,4 +1,6 @@
 
+* 1
+
 > Shorty the Hippo
 + Spyro, it's a good thing you're here. I've been trying to get a berry out of this magic berry bush, but I'm just not strong enough.
 + If you charge or flame the bush, one of those yummy berries should drop!
@@ -18,11 +20,6 @@
 + Thanks for bringing back the three magic lamps. Here, take this orb. Some fairy left it with me, but it won't hold a proper shine.
 + Thanks again for bringing back the three magic lamps. I don't have anything else to give you.
 + I can show you where those cowardly thieves are hiding... watch closely...
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Grundy the Hippo
 + My 8 brothers have been trapped in rock, and will sink in the lava if you can't break them free! @4Headbash@0 the rocks by jumping then pressing }, and follow my lead. &Help the petrified Hippos? &Yes&No
@@ -36,11 +33,3 @@
 + OK, Come back when you're ready.
 + Follow me...and remember, jump and then press } to headbash. &[Follow Grundy and bash her relatives out of the rock.
 + Almost successful, Spyro. &Try again? &Yes&No
-
-> -
-+ 
-+ -
-
-> -
-+ 
-+ -

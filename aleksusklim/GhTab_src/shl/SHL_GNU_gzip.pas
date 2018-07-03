@@ -1,4 +1,4 @@
-unit GNU_gzip;
+unit SHL_GNU_gzip;
 
 {
 // This was taken from paszlib and was joined to one unit. 

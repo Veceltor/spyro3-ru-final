@@ -20,6 +20,7 @@ type
   public
     function edc_compute(OldEdc: Integer; Data: Pointer; Count: Integer): Integer;
     procedure ecc_edc(Sector: Pointer; Mode: Byte);
+    procedure ecc_edc_mode2(SectorBodyStartWithFlags: Pointer);
     function check(Sector: Pointer): Byte;
   end;
 
@@ -137,7 +138,11 @@ begin
         CastInt(Sector, 2348)^ := edc_compute(0, Cast(Sector, 16), 2332);
       end;
   end;
+end;
 
+procedure TEccEdc.ecc_edc_mode2(SectorBodyStartWithFlags: Pointer);
+begin
+  ecc_edc(Cast(SectorBodyStartWithFlags, -16), 2);
 end;
 
 function TEccEdc.check(Sector: Pointer): Byte;

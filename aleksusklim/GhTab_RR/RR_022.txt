@@ -1,83 +1,21 @@
 
+* 1
+
 > Brother Arnie
 + By concentrating, I should be able to open this door for you...
 + The door's open, leave me alone. I'm trying to meditate.
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Brother Clive
 + Who needs a key when you know how to chant like this...
 + How am I supposed to achieve enlightenment if you keep pestering me?
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Brother Curtis
 + Hey, look what I can do.
 + How can you be sure I really exist?
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Brother Ned
 + Even though I'm a vegetarian, I think you should torch that yeti. He's pretty tough though. In fact, I'm not sure you're up to it...
 + I thought the yeti was tougher than that. I guess he was all bark. Anyway, I was just guarding our sacred talisman to make sure the yeti didn't eat it.
-+ 
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Brother Kipp
 + Aaah Spyro, welcome. We have found that hockey is a peaceful and calming sport. Would you like to join in a match against our goal keeper? &Try a game against a goal keeper? &Yes please&No, it's way too cold
@@ -106,39 +44,16 @@
 + Well done Spyro, you've scared the evil spirit away! Why don't you take this. I borrowed it from the temple. They don't need it.
 + I'm glad that evil spirit has gone, it was giving me the heebee geebees I can tell you.
 + If you want to get rid of that evil spirit for good, you must flame all the statues. &[Flame 10 green statues.
-+ -
-+ -
-+ -
-+ -
 
 > Zoe
 + Enemies like those yaks are too big to be charged. Your @4flame attack@0 should easily take care of large enemies.
-+ -
 
 > Zoe
 + Remember Hunter's advice... you will glide farthest if you press the < button at the very top of your jump.
-+ -
 
 > Brother Harry
 + A yeti has been rampaging around our home, but we've managed to trap him by shutting all the doors. If you talk to the other brothers, they will open the gates, and guide you to him.
 + To get the talisman for this level, you just have to make it safely to the exit.
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Zoe
 + Each time you defeat an enemy, it will release a @4spirit particle@0. The spirit particles will activate the @4powerup@0 in that world. If a powerup is inactive, you need to defeat more enemies!
-+ -

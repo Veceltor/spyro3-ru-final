@@ -149,6 +149,8 @@ procedure ExchangeDwords(Ptr1, Ptr2: Pointer; SizeInBytes: Integer);
 
 procedure ExchangeInteger(var Int1, Int2: Integer);
 
+function MakeArray(Arr: array of WideString): ArrayOfWide; overload;
+
 implementation
 
 procedure FillChar(out Data; Count: Integer; Value: DataChar); overload;
@@ -457,6 +459,15 @@ begin
   Temp := Int1;
   Int1 := Int2;
   Int2 := Temp;
+end;
+
+function MakeArray(Arr: array of WideString): ArrayOfWide; overload;
+var
+  Index: Integer;
+begin
+  SetLength(Result, Length(Arr));
+  for Index := 0 to Length(Result) - 1 do
+    Result[Index] := Arr[Index];
 end;
 
 end.

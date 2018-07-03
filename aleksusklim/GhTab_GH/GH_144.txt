@@ -1,9 +1,8 @@
 
-> -
+* 1
+
+> ÿ
 + Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
-+ -
-+ -
-+ -
 
 > Sparx
 + Which challenge would you like to play? &Choose a challenge: &Time Attack &Race the Bumblebees &Exit Level
@@ -23,4 +22,3 @@
 + OK, here I go!
 + I don't know, Spyro, I've never seen a sheep UFO this mad before...
 + Ha ha! Did you see that? Nobody outraces a cheetah! And look, I didn't even drop the egg!
-+ 

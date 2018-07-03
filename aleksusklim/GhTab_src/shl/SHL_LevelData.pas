@@ -62,7 +62,7 @@ type
     function GetVariables(out Offset, Size: Integer): Pointer;
     function GetList(out Len: Integer): PIntegerArray;
     function ListChangePointer(Old: Integer; New: Integer = -1): Boolean;
-    function IsCharacter(ObjectIndex: Integer): Boolean;
+//    function IsCharacter(ObjectIndex: Integer): Boolean;
   private
     procedure IndexData();
   public
@@ -302,7 +302,7 @@ begin
       Result := True;
     end;
 end;
-         {$O-}
+ {
 function TLevelData.IsCharacter(ObjectIndex: Integer): Boolean;
 var
   Act, Tot: Integer;
@@ -332,6 +332,7 @@ begin
     Exit;
   Result := True;
 end;
+}
 
 end.
 

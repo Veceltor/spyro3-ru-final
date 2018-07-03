@@ -1,60 +1,38 @@
 
-> Kludgie the Icebuilder
-+ Spyro, the Ice Wizards have imprisoned our leader, Shaman Tuk. Can you help us rescue him? It is urgent! He has our tickets to tonight's hockey game in Colossus Valley!
-+ If you get on the catapult, we'll help you across the chasm!
-+ 
-+ 
-
-> Iggy the Icebuilder
-+ Watch...we'll help you climb this wall up ahead!
-+ -
-+ 
+* 1
 
 > Kludgie the Icebuilder
 + Spyro, the Ice Wizards have imprisoned our leader, Shaman Tuk. Can you help us rescue him? It is urgent! He has our tickets to tonight's hockey game in Colossus Valley!
 + If you get on the catapult, we'll help you across the chasm!
-+ 
-+ 
+
+> Iggy the Icebuilder
++ Watch...we'll help you climb this wall up ahead!
 
 > Kludgie the Icebuilder
 + Spyro, the Ice Wizards have imprisoned our leader, Shaman Tuk. Can you help us rescue him? It is urgent! He has our tickets to tonight's hockey game in Colossus Valley!
 + If you get on the catapult, we'll help you across the chasm!
-+ 
-+ 
+
+> Kludgie the Icebuilder
++ Spyro, the Ice Wizards have imprisoned our leader, Shaman Tuk. Can you help us rescue him? It is urgent! He has our tickets to tonight's hockey game in Colossus Valley!
++ If you get on the catapult, we'll help you across the chasm!
 
 > Iggy the Icebuilder
 + Watch...we'll help you climb this wall up ahead!
-+ -
-+ 
 
 > Iggy the Icebuilder
 + Watch...we'll help you climb this wall up ahead!
-+ -
-+ 
 
 > Iggy the Icebuilder
 + Watch...we'll help you climb this wall up ahead!
-+ -
-+ 
-
-> chicko
-+ 
-+ -
 
 > Oggy the Icebuilder
 + Thanks, Spyro! Just hold tight for a second, and look out below!
-+ -
-+ 
 
 > Oggy the Icebuilder
 + Thanks, Spyro! Just hold tight for a second, and look out below!
-+ -
-+ 
 
 > Oggy the Icebuilder
 + Thanks, Spyro! Just hold tight for a second, and look out below!
-+ -
-+ 
 
 > Moneybags
 + Hello there, Spyro. I could arrange for you to cross this bridge for...ahem...a small fee. &Pay ^^^ gems to cross the bridge?&Yes Please&No Thanks
@@ -62,7 +40,6 @@
 + OK. I'll be here if you change your mind.
 + Sorry, Spyro, it looks like you can't afford to cross the bridge yet. Come back and see me when you have collected more treasure. &[Crossing bridge costs ^^^ gems.
 + Be careful on the other side of that bridge. I don't want anything bad to happen to my favorite customer.
-+ -
 
 > Shaman Tik
 + This whole area is infested with creepy draclets. You might be able to help us get rid of them...if you could fly... &[Defeat 15 enemies to activate powerup.
@@ -71,29 +48,10 @@
 + OK, I understand. It's a very tough job. Some of our bravest villagers have already been eaten.
 + You have saved us all from a grisly fate. Please accept this orb as a small token of our thanks...
 + I'll also make sure you get free snow cones whenever you visit us.
-+ 
-+ -
 
 > Shaman Tok
 + I lost my pet snow leopard. I was busy fishing, and when I turned around, he was gone. I hope George didn't get eaten by the draclets. &[Bring back the snow leopard.
 + You found George! I'm so glad he's safe. I'll be sure to pay more attention to him from now on. All I have with me is this round shiny thing I caught while I was fishing. You can have it if you like.
-+ 
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Chief Shaman Tuk
 + Ow! You'd think those guys could've got me out of here without rolling a two ton snowball onto my head. Here, take this crystal... I traded some hockey tickets for it.
-+ 
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-
-> isaaca
-+ 
-+ -

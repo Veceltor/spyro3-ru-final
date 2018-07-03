@@ -1,17 +1,15 @@
 
+* 1
+
 > Hunter
 + Spyro, you're not gonna believe this, but there are sheep saucers and space cows all over this place! We gotta stop 'em before they abduct anybody!
 + I'm gonna strap on my jetpack and blast some space cows! &Should Hunter go? &Go for it! &What's a space cow?
 + Look out cows, here I come!
 + Space cows are ferocious, laser-wielding bovines who show no mercy or pity! We've gotta stop them, Spyro!
 + We got the last one just before he abducted this egg!
-+ 
 
-> -
+> ÿ
 + Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
-+ -
-+ -
-+ -
 
 > Sparx
 + Which challenge would you like to play? &Choose a challenge: &Time Attack &Race the Bi-planes &Quit

@@ -8,6 +8,8 @@ uses
 type
   MProcess = procedure(const Param: WideString);
 
+  MProcessArgs = function(const Args: ArrayOfWide): Boolean;
+
 type
   RHandles = record
     Read, Write, Error: THandle;
@@ -82,6 +84,10 @@ type
     class function DeleteEmptyDirs(const Root: WideString): Boolean;
     class function ProcessArguments(Process: MProcess; const ShowHelp:
       TextString = ''): Boolean;
+    class function ProcessArgumentsArray(Process: MProcessArgs; const ShowHelp:
+      TextString = ''): Boolean;
+    class function TouchFile(Name: WideString): Boolean; overload;
+    class function TouchFile(Name: TextString): Boolean; overload;
   end;
 
 implementation
@@ -725,6 +731,43 @@ begin
     Writeln(ShowHelp);
     Readln(Wait);
   end;
+end;
+
+class function SFiles.ProcessArgumentsArray(Process: MProcessArgs; const
+  ShowHelp: TextString = ''): Boolean;
+var
+  Arg: ArrayOfWide;
+  Wait: TextString;
+begin
+  Arg := GetArguments();
+  try
+    Result := Process(Arg);
+  except
+    Result := True;
+  end;
+  if not Result and (ShowHelp <> '') then
+  begin
+    Writeln(ShowHelp);
+    Readln(Wait);
+  end;
+end;
+
+class function SFiles.TouchFile(Name: WideString): Boolean;
+var
+  Stream: THandleStream;
+begin
+  Stream := OpenNew(Name);
+  Result := Stream <> nil;
+  CloseStream(Stream);
+end;
+
+class function SFiles.TouchFile(Name: TextString): Boolean;
+var
+  Stream: THandleStream;
+begin
+  Stream := OpenNew(Name);
+  Result := Stream <> nil;
+  CloseStream(Stream);
 end;
 
 end.

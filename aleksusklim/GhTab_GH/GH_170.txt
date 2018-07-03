@@ -1,9 +1,35 @@
 
+* 1
+
 > Bianca
 + Hey, you finally made it, Spyro! Hunter was a little worried about you when you went off to fight the Sorceress, but I always knew you'd beat her.
 + This place is where the Sorceress kept all her treasure, but after she was defeated a bunch of thieves came and stole it. If you can catch the thieves, you're more than welcome to keep the treasure!
 + Oh, by the way, Hunter is around here somewhere. He's been tinkering with one of his new toys all day, and he wants to show it off. You should go see him!
 + I hope the rest of the dragons will come back here someday.
-+ -
-+ 
-+ 
+
+* 2
+
+> Hunter
++ Hi, Spyro! Did you see Bianca? She was really worried about you when you went off to fight the Sorceress. It was pretty funny. She tries to play it cool, but she was scared stiff until you came back safe.
++ I just finished fixing up an old submarine! Why don't you try taking it for a spin? &Ride the sub? &Right on! &A little later.
++ Great! Hop aboard!
++ Sure, come back whenever you want to ride it!
++ Wanna take my sub for a spin? &Ride the sub? &Right on! &A little later.
+
+* 3
+
+> Hunter
++ Check it out, this is the world's fastest turbo-snowboard course! The local champions are the Sasquatch Six, a gang of yeti's on souped up snow-discs. I bet that you could outrace the lot of 'em! If you win, we get a huge pile of treasure! If you lose, I have to slick down the whole course with my tongue.
++ So, ready to race? &Start the race? &Let's go! &Not yet.
++ Right on! Just don't lose, or my tongue's gonna be a popsicle.
++ Aw, c'mon, you can take these guys!
++ I think my tongue is frozen. You'd better not lose again! &Start the race? &Let's go! &Not yet.
++ OK, good luck this time.
++ Yeah, let's wait for my tongue to thaw first.
++ YEEESSSSSSS! You schooled 'em like a bunch of frost-bitten, flat-footed, molasses-eating, lead-pants-wearing, cross-eyed glacier-trolls riding slabs of plywood with sandpaper on the bottom!!! ... And we won some shiny stuff, too.
+
+* 4
+
+> Bianca
++ I don't know how she did it, Spyro, but the Sorceress must have survived that last battle! She's been waiting here all this time, saving up her magic to destroy you!
++ Your best chance to defeat her is to borrow my flying saucer. I've cast some spells on it to give it extra firepower and unlimited flying time... but the rest is going to be up to you... You've come this far, Spyro, I know you can beat her!

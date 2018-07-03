@@ -1,23 +1,17 @@
 
-> Hydrar the WaterWizard
-+ Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
-+ -
-+ -
-+ -
+* 1
 
 > Hydrar the WaterWizard
 + Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
-+ -
 
 > Hydrar the WaterWizard
 + Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
-+ -
+
+> Hydrar the WaterWizard
++ Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
 
 > Snoozle the WaterWizard
 + Wha? Oh, um, I must have dozed off there. Golly, looks like I let the fountain switch off. Here, take this orb and, um, don't mention my little nap to Hydrar, OK?
-+ -
-+ -
-+ -
 
 > Basil the Explorer
 + Ah, Spyro, a friendly face! A bunch of rotten thieves have stolen the spark plugs and I'm stuck here. Please get the four plugs back! &[Catch thieves to retrieve the spark plugs.
@@ -34,5 +28,3 @@
 + All right. I've got lots of eggs if you need one later.
 + My pencil! Now I can begin calculating the age of the universe again! Here, take this orb...Elora says she thinks I'm going to lose it...
 + Hmm, carry the 6...
-+ 
-+ -

@@ -3,13 +3,22 @@ unit SHL_IsoReader; // SpyroHackingLib is licensed under WTFPL
 interface
 
 uses
-  SysUtils, Classes, SHL_Types;
+  SysUtils, Classes, SHL_Files, SHL_Types;
 
 type
   NImageFormat = (ifUnknown, ifIso, ifMdf, ifStr, ifEcm);
 
 type
-  TIsoReader = class(TFileStream)
+  RIsoFileList = record
+    Name: TextString;
+    Size: Integer;
+    Lba: Integer;
+  end;
+
+  AIsoFileList = array of RIsoFileList;
+
+type
+  TIsoReader = class(THandleStream)
   private
     FCachedSize: Integer;
     FSectorsCount: Integer;
@@ -23,16 +32,18 @@ type
   protected
     function GetSize(): Int64; override;
   public
-    constructor Create(Filename: TextString; DenyWrite: Boolean = False);
-    constructor CreateWritable(Filename: TextString; DenyWrite: Boolean = False);
+    constructor Create(Writable: Boolean; Filename: TextString); overload;
+    constructor Create(Writable: Boolean; Filename: WideString); overload;
   public
     function SetFormat(Header: Integer = 0; Footer: Integer = 0; Body: Integer =
       2336; Ecm: Boolean = False): Boolean; overload;
     function SetFormat(Format: NImageFormat): Boolean; overload;
     procedure SeekToSector(Sector: Integer);
     function ReadSectors(SaveDataTo: Pointer; Count: Integer = 0): Integer;
+    function ReadSector(): DataString;
     function WriteSectors(ReadDataFrom: Pointer; Count: Integer = 0): Integer;
     function GuessImageFormat(Text: PTextChar = nil): NImageFormat;
+    function GetFileList(): AIsoFileList;
   public
     property SectorsCount: Integer read FSectorsCount;
     property Header: Integer read FHeader;
@@ -45,17 +56,61 @@ type
 
 implementation
 
+type
+  RIsoDir = packed record
+    Len: Byte;
+    Len_ext: Byte;
+    Sector: Integer;
+    Sector_big: Integer;
+    Size: Integer;
+    Size_big: Integer;
+    Date: array[1..7] of Byte;
+    Flag: Byte;
+    File_unit: Byte;
+    File_gap: Byte;
+    Volume: Integer;
+    Name_len: Byte;
+    Name: DataChar;
+  end;
+
+  PIsoDir = ^RIsoDir;
+
 function TIsoReader.GetSize(): Int64;
 begin
   Result := Int64(FCachedSize);
 end;
 
-constructor TIsoReader.Create(Filename: TextString; DenyWrite: Boolean = False);
+constructor TIsoReader.Create(Writable: Boolean; Filename: TextString);
+var
+  Temp: THandleStream;
 begin
-  if DenyWrite then
-    inherited Create(Filename, fmOpenRead or fmShareDenyWrite)
+  if Writable then
+  begin
+    Temp := SFiles.OpenWrite(Filename);
+    if Temp = nil then
+      Temp := SFiles.OpenNew(Filename);
+  end
   else
-    inherited Create(Filename, fmOpenRead or fmShareDenyNone);
+    Temp := SFiles.OpenRead(Filename);
+  inherited Create(Temp.Handle);
+  Temp.Free();
+  SetFormat();
+end;
+
+constructor TIsoReader.Create(Writable: Boolean; Filename: WideString);
+var
+  Temp: THandleStream;
+begin
+  if Writable then
+  begin
+    Temp := SFiles.OpenWrite(Filename);
+    if Temp = nil then
+      Temp := SFiles.OpenNew(Filename);
+  end
+  else
+    Temp := SFiles.OpenRead(Filename);
+  inherited Create(Temp.Handle);
+  Temp.Free();
   SetFormat();
 end;
 
@@ -113,6 +168,12 @@ begin
   else
     Result := inherited Read(SaveDataTo^, FTotal * Count) div FTotal;
   Inc(FSector, Result);
+end;
+
+function TIsoReader.ReadSector(): DataString;
+begin
+  SetLength(Result, FBody);
+  ReadSectors(Cast(Result));
 end;
 
 function TIsoReader.WriteSectors(ReadDataFrom: Pointer; Count: Integer = 0): Integer;
@@ -174,18 +235,70 @@ begin
   SetFormat(Result);
 end;
 
-constructor TIsoReader.CreateWritable(Filename: TextString; DenyWrite: Boolean = False);
-begin
-  if FileExists(Filename) then
+function TIsoReader.GetFileList(): AIsoFileList;
+var
+  Have: TList;
+  Len: Integer;
+
+  procedure ReadDir(From: Integer; const Path: TextString);
+  var
+    Sector: DataString;
+    Dir: PIsoDir;
+    Offset, Filesize: Integer;
+    Filename: TextString;
   begin
-    if DenyWrite then
-      inherited Create(Filename, fmOpenReadWrite or fmShareDenyWrite)
-    else
-      inherited Create(Filename, fmOpenReadWrite or fmShareDenyNone);
-  end
-  else
-    inherited Create(Filename, fmCreate);
-  SetFormat();
+    Have.Add(Pointer(From));
+    SeekToSector(From);
+    Sector := ReadSector();
+    Dir := Cast(Sector, 8);
+    while Dir.Len <> 0 do
+    begin
+      CopyMem(@Dir.Sector, @Offset, 4);
+      if Have.IndexOf(Pointer(Offset)) = -1 then
+      begin
+        CopyMem(@Dir.Size, @Filesize, 4);
+        SetString(Filename, CastChar(@Dir.Name), Dir.Name_len);
+        if (Dir.Flag and 2) <> 0 then
+          Filename := Filename + '\'
+        else
+        begin
+          if Length(Result) = Len then
+            SetLength(Result, Len * 2);
+          with Result[Len] do
+          begin
+            Name := Path + Filename;
+            Size := Filesize;
+            Lba := Offset;
+          end;
+          Inc(Len);
+        end;
+        if (Dir.Flag and 2) <> 0 then
+          ReadDir(Offset, Path + Filename);
+      end;
+      Dir := Cast(Dir, Dir.Len);
+    end;
+
+  end;
+
+var
+  Sector: DataString;
+  Dir: PIsoDir;
+  Offset: Integer;
+begin
+  SetLength(Result, 32);
+  Have := TList.Create();
+  try
+    Len := 0;
+    SeekToSector(16);
+    Sector := ReadSector();
+    Dir := Cast(Sector, 8 + 156);
+    CopyMem(@Dir.Sector, @Offset, 4);
+    ReadDir(Dir.Sector, '\');
+    SetLength(Result, Len);
+  except
+    SetLength(Result, 0);
+  end;
+  Have.Free();
 end;
 
 end.

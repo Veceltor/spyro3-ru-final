@@ -1,23 +1,12 @@
 
-> -
-+ -
-+ -
-
-> -
-+ -
-+ -
+* 1
 
 > Beaky the Breezebuilder
 + Please excuse our mess, Spyro... we are currently suffering from a Land Blubber infestation. First they put out the fires on our boilers, and now they've shut down our ship, too.
 + If you could stoke up the fires under the boilers, I'm sure you could make your way to the ship. The steam from the boilers will activate our highly advanced machines.
-+ 
-+ -
 
 > Squawk the Breezebuilder
 + Thanks for getting our ship fired up, Spyro! Now we can proceed with our counter-attack on Zephyr. Please take this talisman as a token of our gratitude.
-+ 
-+ -
-+ -
 
 > Fisher the Breezebuilder
 + How lucky for me that you came along. My machinery is broken, and the gears I need to repair it are scattered all over the tracks. Could you hop on that trolley up there and get them? &[Collect 50 gears with the trolley.
@@ -28,5 +17,3 @@
 > Gobble the Breezebuilder
 + Those Land Blubbers have littered these metal spike mines all over the Harbor. If you can clear them out, I'll give you this orb I found in a clam yesterday. &[Shoot down the floating mines.
 + Thanks, Spyro. Here's that orb I promised. Sorry if it still has clam juice on it.
-+ 
-+ -

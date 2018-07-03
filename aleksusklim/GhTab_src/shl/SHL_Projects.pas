@@ -3,12 +3,12 @@ unit SHL_Projects; // SpyroHackingLib is licensed under WTFPL
 interface
 
 uses
-  Windows, SHL_Types;
+  Windows, SHL_Files, SHL_Types;
 
-type
-  MProcess = procedure(const Param: WideString);
+function Project(Process: MProcess; const ShowHelp: TextString = ''): Boolean; overload;
 
-function Project(Process: MProcess; const ShowHelp: TextString = ''): Boolean;
+function Project(Process: MProcessArgs; const ShowHelp: TextString = ''):
+  Boolean; overload;
 
 procedure Proj_Null(const Name: WideString);
 
@@ -28,19 +28,28 @@ procedure Proj_ObjTextureToColor(const Name: WideString);
 
 procedure Proj_SpyroModelGet(const Name: WideString);
 
+function Proj_SaveWad(const Args: ArrayOfWide): Boolean;
+
+procedure Proj_SaveWadAuto(const Name: WideString);
+
 implementation
 
 uses
   SysUtils, Classes, Graphics, SHL_VramManager, SHL_Bitmaps, SHL_TextureManager,
   SHL_GoldenFont, SHL_PlayStream, SHL_SavestateReader, SHL_Gzip,
   SHL_ProcessStream, SHL_LameStream, SHL_WaveStream, SHL_IsoReader, SHL_Progress,
-  SHL_XaMusic, SHL_EccEdc, SHL_GmlModel, SHL_Files, SHL_ObjModel,
-  SHL_BufferedStream, SHL_Models3D, SHL_WadManager, SHL_TextUtils, SHL_PosWriter,
-  SHL_MemoryManager, SHL_Knapsack, SHL_LevelData, SHL_ModelS1;
+  SHL_XaMusic, SHL_EccEdc, SHL_GmlModel, SHL_ObjModel, SHL_BufferedStream,
+  SHL_Models3D, SHL_WadManager, SHL_TextUtils, SHL_PosWriter, SHL_MemoryManager,
+  SHL_Knapsack, SHL_LevelData, SHL_ModelS1;
 
 function Project(Process: MProcess; const ShowHelp: TextString = ''): Boolean;
 begin
   Result := SFiles.ProcessArguments(Process, ShowHelp);
+end;
+
+function Project(Process: MProcessArgs; const ShowHelp: TextString = ''): Boolean;
+begin
+  Result := SFiles.ProcessArgumentsArray(Process, ShowHelp);
 end;
 
 procedure Proj_Null(const Name: WideString);
@@ -222,8 +231,39 @@ type
   end;
 
 procedure Proj_GhTab(const Name: WideString);
+
+  function WrongString(From: Pointer; Line: Boolean): Boolean;
+  var
+    Tgt: PByte;
+    Len: Integer;
+  begin
+    Result := True;
+    Len := 0;
+    Tgt := From;
+    if Line then
+    begin
+      if Tgt^ = 0 then
+        Exit;
+      if Tgt^ > 48 then
+        Exit;
+      Inc(Tgt, Tgt^);
+    end;
+    while Tgt^ <> 0 do
+    begin
+      if Tgt^ < 32 then
+        Exit;
+      if Tgt^ > 126 then
+        Exit;
+      Inc(Len);
+      Inc(Tgt);
+    end;
+    if Len < 2 then
+      Exit;
+    Result := False;
+  end;
+
 var
-  Level: TLevelData;
+//  Level: TLevelData;
   Index, Active, Total, Cnt, Offset, Size, Len, Need, Next, Tex: Integer;
   Data: DataString;
   Vars, From: Pointer;
@@ -241,20 +281,31 @@ var
   Stream: THandleStream;
   Character: PLevelCharacter;
   Skip: Byte;
+  Lev, Tgt: Integer;
+  Levels: array[1..5] of TLevelData;
+  List, Dups: TList;
+  Who, How: Integer;
+  Where: Pointer;
+  Me: PByte;
 const
   Mb = 8 * 1024 * 1024;
 begin
   Writeln(Name);
-  Level := nil;
+  ZeroMem(@Levels[1], SizeOf(Levels));
   Knap := nil;
   Wad := nil;
   Replace := nil;
   Stream := nil;
   Jap := nil;
+  List := nil;
+  Dups := nil;
+  Vars := nil;
+  Objs := nil;
   try
+    Dups := TList.Create();
+    List := TList.Create();
     Wad := TWadManager.Create();
     Knap := TKnapsack.Create();
-    Level := TLevelData.Create();
     Replace := TStringList.Create();
     Stream := SFiles.OpenRead(Name + '.txt');
     if Stream <> nil then
@@ -269,14 +320,87 @@ begin
     Wad.UseLevelSub(Data);
     Assure(Wad.Game in [GameSpyro2, GameSpyro3]);
 
-    From := Wad.LevelGetSublevelText(1, Len);
-    Level.OpenData(From, Wad.Game);
-    Vars := Level.GetVariables(Offset, Size);
-    Objs := Level.GetObjects(Active, Total);
-    Writeln('Objects: active - ', Active, ', empty - ', Total - Active);
-    Cnt := 0;
-    for Index := 0 to Active - 1 do
-      if Level.IsCharacter(Index) then
+    for Lev := 1 to 5 do
+    begin
+      From := Wad.LevelGetSublevelText(Lev, Len);
+      if From = nil then
+        Break;
+      Replace.Add('');
+      Replace.Add('* ' + IntToStr(Lev));
+      Levels[Lev] := TLevelData.Create();
+      Levels[Lev].OpenData(From, Wad.Game);
+      Vars := Levels[Lev].GetVariables(Offset, Size);
+      Objs := Levels[Lev].GetObjects(Active, Total);
+//      Seek := Levels[Lev].GetList(Len);
+//Levels[Lev].ListChangePointer()
+      //Writeln('Sublevel ', Lev, ': active - ', Active, ', empty - ', Total - Active);
+      Cnt := 0;
+      List.Clear();
+      Dups.Clear();
+      for Index := 0 to Active - 1 do
+      begin
+        Tgt := Objs[Index].Variables - Offset;
+        if (Tgt < 0) or (Tgt > Size) then
+          Continue;
+        List.Add(Pointer(Tgt));
+      end;
+      for Index := 0 to Active - 1 do
+      begin
+        Tgt := Objs[Index].Variables - Offset + 12;
+        if (Tgt < 0) or (Tgt > Size) then
+          Continue;
+        if List.IndexOf(Pointer(Tgt)) <> -1 then
+          Continue;
+        if not Levels[Lev].ListChangePointer(Tgt + Offset) then
+          Continue;
+        Who := CastInt(Vars, Tgt)^ - Offset;
+        if (Who < 0) or (Who > Size) then
+          Continue;
+        Where := Cast(Vars, Who);
+        if (CastByte(Where)^ <> 255) and WrongString(Where, False) then
+          Continue;
+        if Dups.IndexOf(Where) <> -1 then
+          Continue;
+        Dups.Add(Where);
+        Replace.Add('');
+        Replace.Add('> ' + CastChar(Where));
+        How := 0;
+        while True do
+        begin
+          Inc(Tgt, 4);
+          if Tgt > Size then
+            Break;
+          if List.IndexOf(Pointer(Tgt)) <> -1 then
+            Break;
+          if not Levels[Lev].ListChangePointer(Tgt + Offset) then
+            Break;
+          Who := CastInt(Vars, Tgt)^ - Offset;
+          if (Who < 0) or (Who > Size) then
+            Break;
+          Where := Cast(Vars, Who);
+          Me := Where;
+          if (Me^ = 0) or (Me^ = 255) then
+            Continue;
+          Inc(Me, Me^);
+          if Me^ = 0 then
+            Continue;
+          if WrongString(Where, True) then
+            Break;
+          if Dups.IndexOf(Where) <> -1 then
+            Continue;
+          Dups.Add(Where);
+          Replace.Add('+ ' + CastChar(Where, CastByte(Where)^));
+          Inc(How);
+        end;
+        if How = 0 then
+        begin
+          Replace.Delete(Replace.Count - 1);
+          Replace.Delete(Replace.Count - 1);
+        end;
+      end;
+      Continue;
+      for Index := 0 to Active - 1 do
+       // if Level.IsCharacter(Index) then
       begin
         Obj := @Objs[Index];
         Character := Cast(Vars, Obj.Variables - Offset);
@@ -292,19 +416,19 @@ begin
 //      Writeln(Character.What);
 
           if Use then
-          begin
-            if Cnt >= Replace.Count then
-            begin
-              Writeln('Need more strings?');
-              Abort;
-            end;
-            Load := STextUtils.HexToStr(Replace[Cnt]);
-            Knap.AddItem(nil, Index, SizeOf(RJapTab), 4);
-            Knap.AddSpace(Obj.Variables, SizeOf(RJapTab));
-            Knap.AddSpace(Jap.Text, AlignValue(Length(Line) + 1, 4));
-            ZeroMem(Cast(Vars, Jap.Text - Offset), Length(Line));
-            ZeroMem(Cast(Vars, Obj.Variables - Offset), SizeOf(RJapTab));
-            Knap.AddItem(nil, -1, Length(Load) + 1, 1);
+          begin    {
+              if Cnt >= Replace.Count then
+              begin
+                Writeln('Need more strings?');
+                Abort;
+              end;
+              Load := STextUtils.HexToStr(Replace[Cnt]);
+              Knap.AddItem(nil, Index, SizeOf(RJapTab), 4);
+              Knap.AddSpace(Obj.Variables, SizeOf(RJapTab));
+              Knap.AddSpace(Jap.Text, AlignValue(Length(Line) + 1, 4));
+              ZeroMem(Cast(Vars, Jap.Text - Offset), Length(Line));
+              ZeroMem(Cast(Vars, Obj.Variables - Offset), SizeOf(RJapTab));
+              Knap.AddItem(nil, -1, Length(Load) + 1, 1);   }
           end
           else
           begin
@@ -335,7 +459,8 @@ begin
           Next := Character.TextOffset[Tex] - Offset;
         end;
       end;
-    Writeln('Characters: ', Cnt);
+      //Writeln('Characters: ', Cnt);
+    end;
     if Use then
     begin
       Need := Knap.Compute();
@@ -347,9 +472,11 @@ begin
           Writeln('Text too long! Need empty objects: ', Need);
           Abort;
         end;
+        {
         Need := Level.TakeSomeObjects(Need);
         Vars := Level.GetVariables(Offset, Size);
         Objs := Level.GetObjects(Active, Total);
+        }
         Writeln('Text takes objects: ', Need div 88);
       end
       else
@@ -364,8 +491,8 @@ begin
           Inc(KOffset, Offset);
         if KName <> -1 then
         begin
-          Level.ListChangePointer(Objs[KName].Variables + 12, KOffset + 12);
-          Level.ListChangePointer(Objs[KName].Variables + 16, KOffset + 16);
+//          Level.ListChangePointer(Objs[KName].Variables + 12, KOffset + 12);
+//          Level.ListChangePointer(Objs[KName].Variables + 16, KOffset + 16);
           Objs[KName].Variables := KOffset;
           Jap := Cast(Vars, KOffset - Offset);
           ZeroMem(Jap, KSize);
@@ -380,7 +507,7 @@ begin
           CopyMem(Cast(Load), Save, KSize);
         end;
       end;
-      Level.SaveData(From);
+//      Level.SaveData(From);
       SFiles.WriteEntireFile(Name + '.new', Data);
     end
     else
@@ -405,11 +532,14 @@ begin
     SFiles.WriteEntireFile(Name + '.bin', STextUtils.HexToStr(Line));
   end;
   }
-  Level.Free();
+  for Index := 1 to 5 do
+    Levels[Index].Free();
   Knap.Free();
   Wad.Free();
   Replace.Free();
   Stream.Free();
+  List.Free();
+  Dups.Free();
 end;
 
 //
@@ -859,6 +989,328 @@ begin
   Bitmap.Free();
   Egg.Free();
   Obj.Free();
+end;
+
+//
+
+function Proj_SaveWad(const Args: ArrayOfWide): Boolean;
+var
+  Cnt: Integer;
+//  Save: Boolean;
+  Iso: TIsoReader;
+  Format: TextString;
+  List: AIsoFileList;
+  Index: Integer;
+  Seek: TextString;
+  Lba, Size: Integer;
+  Buffer: DataString;
+  Mem: Pointer;
+  Count: Integer;
+  Buf: THandleStream;
+  Save: TBufferedWrite;
+  Load: TBufferedRead;
+  Ecc: TEccEdc;
+  Old: Integer;
+  Progress: TConsoleProgress;
+const
+  BufferSectors = 60;
+begin
+  SetLength(List, 0);
+  Result := True;
+  Cnt := Length(Args) - 1;
+  if (Cnt < 1) or (Cnt > 4) or ((Cnt = 4) and (Args[3] <> '>')) then
+  begin
+    Result := False;
+    Exit;
+  end;
+  Iso := nil;
+  Save := nil;
+  Buf := nil;
+  Load := nil;
+  Ecc := nil;
+  Progress := nil;
+  SetLength(Format, 4);
+  try
+    case Cnt of
+      1:
+        begin
+          Iso := TIsoReader.Create(Cnt = 3, Args[1]);
+          Iso.GuessImageFormat(Cast(Format));
+          List := Iso.GetFileList();
+          for Index := 0 to Length(List) - 1 do
+            Writeln('"', List[Index].Name, '" - LBA = ', List[Index].Lba,
+              ', Size = ', List[Index].Size);
+        end;
+      2, 4:
+        begin
+          Iso := TIsoReader.Create(Cnt = 3, Args[1]);
+          Iso.GuessImageFormat(Cast(Format));
+          List := Iso.GetFileList();
+          if Cnt = 4 then
+            Buf := SFiles.OpenNew(Args[4])
+          else
+            Buf := THandleStream.Create(GetStdHandle(STD_OUTPUT_HANDLE));
+          Save := TBufferedWrite.Create(128 * 1024);
+          Save.Open(Buf);
+          Seek := UpperCase(Args[2]);
+          Lba := -1;
+          Size := 0;
+          if Seek <> '' then
+            for Index := 0 to Length(List) - 1 do
+              if Pos(Seek, UpperCase(List[Index].Name)) > 0 then
+              begin
+                Assure(Lba = -1);
+                Lba := List[Index].Lba;
+                Size := List[Index].Size;
+              end;
+          Assure(Lba <> -1);
+          SetLength(Buffer, BufferSectors * Iso.Total);
+          Iso.SeekToSector(Lba);
+          while Size > 0 do
+          begin
+            Mem := Cast(Buffer);
+            Count := AlignValue(Size, 2048) div 2048;
+            if Count > BufferSectors then
+              Count := BufferSectors;
+            Iso.ReadSectors(Mem, Count);
+            Adv(Mem, 8);
+            for Index := 1 to Count do
+            begin
+              if Size > 2048 then
+              begin
+                Save.WriteBuffer(Mem^, 2048);
+                Dec(Size, 2048);
+              end
+              else
+              begin
+                Save.WriteBuffer(Mem^, Size);
+                Size := 0;
+                Break;
+              end;
+              Adv(Mem, Iso.Total);
+            end;
+          end;
+        end;
+      3:
+        try
+          Iso := TIsoReader.Create(Cnt = 3, Args[1]);
+          Iso.GuessImageFormat(Cast(Format));
+          List := Iso.GetFileList();
+          Writeln('Iso: "', Args[1], '"');
+          Seek := UpperCase(Args[2]);
+          Writeln('Seek: "', Seek, '"');
+          Writeln('From: "', Args[3], '"');
+          Ecc := TEccEdc.Create();
+          Buf := SFiles.OpenRead(Args[3]);
+          Load := TBufferedRead.Create(128 * 1024, 0);
+          Load.Open(Buf);
+          Writeln('Size: ', Buf.Size);
+          Lba := -1;
+          Size := 0;
+          if Seek <> '' then
+            for Index := 0 to Length(List) - 1 do
+              if Pos(Seek, UpperCase(List[Index].Name)) > 0 then
+              begin
+                Size := List[Index].Size;
+                Writeln('Found: "', List[Index].Name, '", size - ', Size);
+                Assure(Lba = -1);
+                Lba := List[Index].Lba;
+              end;
+          Assure((Lba <> -1) and (Size = Buf.Size));
+          SetLength(Buffer, BufferSectors * Iso.Total);
+          Iso.SeekToSector(Lba);
+          Writeln('Working...');
+          Progress := TConsoleProgress.Create(0, Size);
+          Progress.Show(Size);
+          while Size > 0 do
+          begin
+            Old := Iso.Sector;
+            Mem := Cast(Buffer);
+            Count := AlignValue(Size, 2048) div 2048;
+            if Count > BufferSectors then
+              Count := BufferSectors;
+            Iso.ReadSectors(Mem, Count);
+            Adv(Mem, 8);
+            for Index := 1 to Count do
+            begin
+              if Size > 2048 then
+              begin
+                Load.ReadBuffer(Mem^, 2048);
+                Dec(Size, 2048);
+              end
+              else
+              begin
+                ZeroMem(Mem, 2048);
+                Load.ReadBuffer(Mem^, Size);
+                Size := 0;
+                Break;
+              end;
+              Adv(Mem, Iso.Total);
+            end;
+            Progress.Show(Size);
+            Mem := Cast(Buffer);
+            for Index := 1 to Count do
+            begin
+              Ecc.ecc_edc_mode2(Mem);
+              Adv(Mem, Iso.Total);
+            end;
+            Iso.SeekToSector(Old);
+            Iso.WriteSectors(Cast(Buffer), Count);
+          end;
+          Progress.Success();
+          Writeln('Done!');
+        except
+          Writeln('ERROR');
+          if Args[0] <> '' then
+            Halt(1);
+        end;
+    end;
+  finally
+    Progress.Free();
+    Ecc.Free();
+    Iso.Free();
+    Save.Free();
+    Load.Free();
+    if Cnt = 4 then
+      SFiles.CloseStream(Buf)
+    else
+      Buf.Free();
+  end;
+end;
+
+//
+
+procedure Proj_SaveWadAuto(const Name: WideString);
+var
+  Test: THandleStream;
+  Wait: TextString;
+  Files: ArrayOfWide;
+  Index, Size: Integer;
+  Bin, Iso, Dir, Seek: WideString;
+  Ext: TextString;
+  Image: TIsoReader;
+  List: AIsoFileList;
+
+  procedure ShowAndExit(Text: TextString = '');
+  begin
+    Writeln(Text);
+    Abort;
+  end;
+
+begin
+  SetLength(List, 0);
+  SetLength(Files, 0);
+  try
+    Bin := '';
+    Iso := '';
+    Dir := SFiles.GetProgramDirectory();
+    Files := SFiles.GetAllFiles(Dir, Exclude);
+    for Index := 0 to Length(Files) - 1 do
+    begin
+      Ext := UpperCase(TextString(SFiles.GetExtension(Files[Index])));
+      if Ext = '.BIN' then
+      begin
+        if Bin <> '' then
+          Bin := '?'
+        else
+          Bin := Files[Index];
+      end
+      else if Ext = '.ISO' then
+      begin
+        if Iso <> '' then
+          Iso := '?'
+        else
+          Iso := Files[Index];
+      end;
+    end;
+    if Iso = '' then
+      Iso := Bin;
+    if (Iso = '') or (Iso = '?') then
+    begin
+      if Iso = '?' then
+        ShowAndExit('More than one .iso/.bin are in "' + Dir + '"')
+      else
+        ShowAndExit('No .iso/.bin image is found in "' + Dir + '"');
+    end;
+    Iso := Dir + Iso;
+    if SFiles.GetFullName(Name) = SFiles.GetFullName(Iso) then
+    begin
+      Writeln('= Info mode =');
+      Writeln('Image: "', Iso, '"');
+      Writeln('');
+      try
+        Proj_SaveWad(MakeArray(['', Iso]));
+        Writeln('');
+        Writeln('Done!');
+      except
+        Writeln('');
+        Writeln('ERROR');
+      end;
+      ShowAndExit();
+    end;
+    if SFiles.IsDirectory(Name) then
+    begin
+      Writeln('= List mode =');
+      Writeln('');
+      Writeln('Create in: "', Iso, '"');
+      Writeln('');
+      Dir := SFiles.NoBackslash(SFiles.GetFullName(Name)) + WideString('\');
+      Image := nil;
+      try
+        Image := TIsoReader.Create(False, Iso);
+        Image.GuessImageFormat();
+        List := Image.GetFileList();
+        FreeAndNil(Image);
+        for Index := 0 to Length(List) - 1 do
+        begin
+          Bin := Trim(List[Index].Name);
+          Bin := StringReplace(Bin, '\', '~', [rfReplaceAll]);
+          Writeln('"', List[Index].Name, '" - "', Bin, '"');
+          SFiles.TouchFile(Dir + Bin);
+        end;
+        Writeln('');
+        Writeln('Done!');
+      except
+        Writeln('');
+        Writeln('ERROR');
+      end;
+      Image.Free();
+      ShowAndExit('');
+    end;
+
+    Test := SFiles.OpenRead(Name);
+    if Test = nil then
+      ShowAndExit('Can''t open your "' + Name + '"');
+    Size := Test.Size;
+    SFiles.CloseStream(Test);
+    Seek := StringReplace(SFiles.GetLastSlash(Name, True), '~', '\', [rfReplaceAll]);
+    if Size = 0 then
+    begin
+      Writeln('= Export mode =');
+      Writeln('');
+      Writeln('Image: "', Iso, '"');
+      Writeln('Seek for: "', UpperCase(TextString(Seek)), '"');
+      Writeln('Save to: "', Name, '"');
+      try
+        Proj_SaveWad(MakeArray(['', Iso, Seek, '>', Name]));
+        Writeln('');
+        Writeln('Done!');
+      except
+        Writeln('');
+        Writeln('ERROR');
+      end;
+      ShowAndExit('');
+    end;
+    Writeln('= Import mode =');
+    Writeln('');
+    try
+      Proj_SaveWad(MakeArray(['', Iso, Seek, Name]));
+    except
+    end;
+    ShowAndExit('');
+  except
+  end;
+  SFiles.CloseStream(Test);
 end;
 
 //

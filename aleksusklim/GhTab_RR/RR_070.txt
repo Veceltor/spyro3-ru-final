@@ -1,17 +1,11 @@
 
+* 1
+
 > Gatekeeper Gniles
 + Welcome to Dragon Shores, Spyro. Sorry but I can't let you into our little park until you've found more of the gems and orbs in Avalar. Good luck! &[Collect ^^ orbs. &[Collect 8,000 gems.
 + Well done, Spyro! Step right on into Dragon Shores Park!
 + By the way, if you win ten tokens, you can visit our theatre!
 + Try to win tokens at the attractions. If you win ten, you can visit the famous Dragon Shores Theatre!
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Showman Gnick
 + Step right up Spyro and take a look at what we've got for you today. Inside this here booth, you'll find some of the most vicious creatures you've ever seen. &Try dunking booth?&Yes&No
@@ -22,10 +16,6 @@
 + Wow, you really are a great shot. Take this, it's my last token.
 + Good shot, but I'm clean out of tokens. Keep shooting if you want.
 + Have another shot if you want, kid...
-+ -
-+ -
-+ -
-+ -
 
 > Showman Gnelson
 + Hiya Spyro. I hear you're a pretty good shot! How'd you like to try my shooting gallery? &Go for it?&Yes&Gno
@@ -39,7 +29,6 @@
 + Too bad, Spyro. If you want to try again I can reset the timer for you. Are you game? &Try again?&Yes&No
 + Good shot, but I'm clean out of tokens. Keep shooting if you want.
 + Too bad, Spyro. If you want to try again I can reset the timer for you. Are you game? &Try again?&Yes&No
-+ -
 
 > Showman Gnorm
 + Free, Free, Free! You pay no money down, and make no monthly payments. In return, I'll give you one token. One is all I can give but you can ride as many times as you'd like. &Take a ride?&Yes&No
@@ -48,12 +37,6 @@
 + As promised, here's your one token. When you have ten, try visiting the Dragon Shores Theatre.
 + Just for kicks, eh Spyro? You've already got your token. Come back anytime though...
 + Back to take a whirl on the boat ride? &Take a ride?&Why not?&Naw
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Showman Gnigel
 + Welcome to the Dragon Shores Coaster. Here at the Shores we don't just ride though! If you can pop all the balloons on the track, a token is waiting for you. Ready to ride? &Jump on?&Yes&No
@@ -67,18 +50,7 @@
 + There's one more run, and you're on a roll... There's a cannon installed on your car for this run, and you'll have to shoot balloons too. Are you gonna give it a try? &Do the third run?&You bet!&I'll quit now
 + Wow, you're a natural...you've conquered the coaster! Here's my last token.
 + Wanna ride the coaster just for fun? &Jump on?&Yes&No
-+ -
 
 > Showman Gned
 + Hey there young fella! I'd sure like to let you into the Dragon Shores Theatre, but you just haven't won enough tokens. Try visiting the other attractions first. &[Win 10 tokens to enter theatre.
 + Well Spyro, it's your lucky day! You've managed to win enough tokens to enter the famous Dragon Shores Theatre! Go on in and enjoy the show!
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -

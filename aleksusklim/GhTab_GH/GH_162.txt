@@ -1,4 +1,6 @@
 
+* 1
+
 > Sparx
 + Which challenge would you like to play? &Choose a challenge: &Time Attack &Race the Blue-Footed Boobies &Exit Level
 + The easiest way to beat this time trial is to do it in the following order: seagulls, arches, lobsters, fish. Complete each one before moving on to the next.
@@ -17,4 +19,3 @@
 + I'll be right back!
 + WHAT? You're kidding! We gotta hurry, he's getting away!
 + YES!!! That was close! The egg popped out just before the saucer crash landed!
-+ 

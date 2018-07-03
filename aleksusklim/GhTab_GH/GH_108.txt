@@ -1,9 +1,8 @@
 
-> -
+* 1
+
+> ÿ
 + Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
-+ -
-+ -
-+ -
 
 > Hunter
 + Whoooa! A bunch of sheep in flying saucers just came out of nowhere and started blasting up the race course!
@@ -11,7 +10,6 @@
 + Look out sheep, here I come! &[{ button to fire. &[< or > button for turbo.
 + Yeah, when sheep go hi-tech, you gotta watch out!
 + Wooohooooo! Check it out, the squad leader had abducted this egg!
-+ 
 
 > Sparx
 + Which challenge would you like to play? &Choose a challenge: &Time Attack &Race the Butterflies &Exit level

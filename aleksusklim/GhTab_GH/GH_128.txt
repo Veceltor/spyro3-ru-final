@@ -1,4 +1,6 @@
 
+* 1
+
 > Cpl. Gabrielle
 + Sir! The situation is this, yesterday at 1845 hours the rhynocs invaded. We defended as best we could, sir, but without your leadership we didn't put up an effective resistance. By 1900 hours the rest of the squad was captured and the rhynocs had complete control of the base.
 + Recommend you take the enemy out with your rockets by pressing the { button, sir!
@@ -9,7 +11,6 @@
 + Mission accomplished. It's great to have you back, sir.
 + Sir! We need to rescue the rest of the squad before we can launch a raid on the Sorceress's castle.
 + Awaiting orders, sir.
-+ -
 
 > Sgt. Byrd
 + I have to train the hummingbirds. They must be in peak physical condition if we're going to take on the Sorceress.
@@ -23,57 +24,27 @@
 + Before I was captured, I recovered this egg from the enemy, sir!
 + Thank you, sir. &[Free 1 other hummingbird soldier.
 + Thank you, sir.
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Pvt. Nikita
 + I'm ready to be debriefed, sir. &[Free ^ other hummingbird soldiers.
 + Before I was captured, I recovered this egg from the enemy, sir!
 + I'm ready to be debriefed, sir. &[Free 1 other hummingbird soldier.
 + I'm ready to be debriefed, sir.
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Pvt. Chloe
 + Reporting for duty, sir! &[Free ^ other hummingbird soldiers.
 + Before I was captured, I recovered this egg from the enemy, sir!
 + Reporting for duty, sir! &[Free 1 other hummingbird soldier.
 + Reporting for duty, sir!
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Pvt. Eloise
 + Request permission to cheer, sir... Hip Hip Hooray! &[Free ^ other hummingbird soldiers.
 + Before I was captured, I recovered this egg from the enemy, sir!
 + Request permission to cheer, sir... Hip Hip Hooray! &[Free 1 other hummingbird soldier.
 + Request permission to cheer, sir... Hip Hip Hooray!
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -
 
 > Pvt. Helene
 + What are your orders, sir? &[Free ^ other hummingbird soldiers.
 + Before I was captured, I recovered this egg from the enemy, sir!
 + What are your orders, sir? &[Free 1 other hummingbird soldier.
 + What are your orders, sir?
-+ -
-+ -
-+ -
-+ -
-+ -
-+ -

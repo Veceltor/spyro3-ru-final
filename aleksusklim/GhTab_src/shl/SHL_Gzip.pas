@@ -32,7 +32,7 @@ implementation
 {$IFDEF SHL_GNU}
 
 uses
-  GNU_gzip;
+  SHL_GNU_gzip;
 
 {$ELSE}
 

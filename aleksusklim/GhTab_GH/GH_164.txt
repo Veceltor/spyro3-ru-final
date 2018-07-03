@@ -1,4 +1,6 @@
 
+* 1
+
 > Professor
 + Ahh, Agent 9, my favorite pupil... welcome back to my island laboratory! I'm afraid rhynocs have taken over the whole island... perhaps you could stop them before they destroy all my research.
 + Ah, it'll be just like old times! Try shooting these dummies to get warmed up, but... err, be careful, I think a rhynoc might be hiding among them... &[Shoot all dummies, and the occasional rhynoc...
@@ -15,12 +17,6 @@
 + Just a few more enemies left! You can do it!
 + Thank you very much for saving my laboratory. Now I can resume thinking...
 + Now I can switch the gravitonometric generator back on. I hope no birds got in there...
-+ -
-+ -
-+ -
-+ -
-+ -
-+ H+
 
 > Agent 9
 + What was that? Did you see a rhynoc? I thought I saw a rhynoc! Oooooh, take it from me, Spyro, never spend a week in a cage.  Uh, huh, next thing you know your whole island will be knee deep in rhynocs. Well, gotta go, Mr. Laser Blaster and I have a whole lotta work to do.
