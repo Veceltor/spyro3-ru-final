@@ -1,8 +1,0 @@
-----	8	----
-
-ENG:	Agent 9
-RUS:	Agent 9
-
-ENG:	Woohoo! Time to kick some Sorceress butt!
-RUS:	Woohoo! Time to kick some Sorceress butt!
-
