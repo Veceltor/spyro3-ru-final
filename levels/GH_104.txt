@@ -3,6 +3,7 @@
 
 > Zoe
 + Be sure to keep your friend Sparx the Dragonfly healthy Spyro. If his health is low, torch a little creature like this slug below me to release a butterfly.
+$ Заботься о своём верном друге, Стрекозе Спарксе. Если ему будет плохо, то поджарь кого-то маленького, вроде этого слизняка, и выпусти бабочку.
 
 > Rocky
 + Here, take this egg. They were giving them away at the Tiki Lodge last night.
@@ -13,20 +14,29 @@
 
 > Moneybags
 + Spyro, you're just in time! I saw two egg thieves run through this door! Well... actually, they paid me to guard their hideout, but that's irrelevant. I'll happily let you through the gate to chase them down... for, ahem, a small finder's fee... &Pay ^^^ gems to enter the thieves' den? &Ok, ok... &Get lost, loser!
+$ Спайро, ты как раз вовремя! Двое похитителей прямо на моих глазах прошмыгнули в эту дверь! Ну... вернее они заплатили мне за охрану их убежища, но речь не об этом. Я бы с радостью пустил тебя вслед за ними, за... гхм, малюсенькую пошлину… &Заплатишь ^^^ камней за вход в логово воров? &Ладно, конечно... &Сгинь, неудачник!
 + Thank you, Spyro, and best of luck catching those dastardly egg thieves.
+$ Спасибо, Спайро, и удачной охоты за подлыми воришками.
 + Very well, Spyro, it's up to you... Maybe if we both just hold hands and think happy thoughts, the thieves will decide to return the eggs themselves.
+$ Ну, Спайро, дело твое... Может, если мы просто возьмёмся за ручки и подумаем о хорошем, то воры сами вернут яйца.
 + Well, Spyro, it's good to see you! This gate I'm guarding happens to be the secret entrance to an egg thief hideout... Of course, I can't let you enter with a clean conscience... At least not without paying a small fee. &[Entering thief hideout costs ^^^ gems.
+$ Приятно видеть тебя, Спайро! Так уж вышло, что ворота, которые я охраняю - секретный вход в укрытие похитителей яиц... И я конечно же не могу впустить тебя туда с чистой совестью... Ну, пока ты мне не заплатишь. &[Проникнуть в укрытие воров можно за ^^^ камней.
 + I guess those egg thieves are going to get what's coming to them... it's too bad... I always sort of liked those guys.
+$ Что ж, теперь-то грабители смекнут, что их ждёт… даже жалко, мне всегда были по душе такие ребята.
 
-> �
+> ÿ
 + Note: Sgt. Byrd is currently on an important mission... to the inside of a cage! Tough luck.\     -The Sorceress
+$ Объявление: В настоящий момент Сержант Бёрд направлен на важное задание... в клетку! Вот незадача. \ -Колдунья 
 + Would love to visit, old chap, but I've got work to do back at the base. You can check in with me there.     -Sgt. James Byrd
+$ Рад бы повидаться, дружище, но у меня ещё работёнка на базе. До связи! –Серж. Джеймс Бёрд
 + Step inside, old chum!     -Sgt. James Byrd
+$ Заходи, мой боевой товарищ!\ -Серж. Джеймс Бёрд
 
 * 2
 
 > Sgt. Byrd
 + Hello Spyro, I'm just off to the Tiki Lodge for some R and R.
+$ Здравия желаю! Меня как раз направили в командировку в Тики-Ложу.
 
 > Shale
 + I'm playing a game of hide and seek with my friends. If I can't find where they've hidden their heads they won't let me join the Tiki Lodge. Help me put them back together and I'll make you an honorary member.

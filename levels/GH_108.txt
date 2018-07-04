@@ -1,15 +1,21 @@
 
 * 1
 
-> �
+> ÿ
 + Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
+$ Вниманию дракона: если ещё желаешь увидать своего паршивого кота, то катись отсюда сейчас!\     -Колдунья
 
 > Hunter
 + Whoooa! A bunch of sheep in flying saucers just came out of nowhere and started blasting up the race course!
+$ Что зааа! Кучка овечек на летающих тарелках появилась прям из ниоткуда и стала всё тут разносить!
 + Looks like I'll have to hop in my plane and teach 'em some manners! &Shoot down sheep UFOs? &Go for it! &Looks too dangerous...
+$ Придётся мне сесть в самолет и поучить их хорошим манерам! &Посбиваем летающие тарелки? &Дуй за ними! &Пахнет жареным…
 + Look out sheep, here I come! &[{ button to fire. &[< or > button for turbo.
+$ Держитесь, овечки, я иду!
 + Yeah, when sheep go hi-tech, you gotta watch out!
+$ Да уж, стоит остерегаться продвинутых на всю голову овец.
 + Wooohooooo! Check it out, the squad leader had abducted this egg!
+$ Я-я-яху-у-у! Глянь-ка, главарь их шайки хотел присвоить это яйцо!
 
 > Sparx
 + Which challenge would you like to play? &Choose a challenge: &Time Attack &Race the Butterflies &Exit level
