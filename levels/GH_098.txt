@@ -28,15 +28,23 @@
 
 > Snappy the Seal
 + I want to repay you for saving me from that octopus. We can help you use this hot air balloon, if you just bring back someone from each of the other worlds.
+$ Ты спас меня от осьминога, и в ответ я бы хотел помочь тебе с воздушным шаром. Только приведи кого-нибудь из остальных миров.
 + Let's head on over to the balloon!
+$ Погнали к шару!
 + The balloon's all ready, sir! Just jump on!
+$ Шар полностью готов, сэр! Просто запрыгивайте!
 + Here I was, about to go for a nice swim at Shell Beach, and my portal just disappeared right in front of me. If you go find some more of those dragon eggs, I bet this portal would turn on again. &[^^ eggs needed to open portal.
+$ Я было собирался искупаться на Пляже Ракушек, как мой портал внезапно исчез прямо передо мной! Может, если ты найдешь больше драконьих яиц, он снова появится.
 + Yay, my portal is working! I'll see you at the beach!
+$ Уря, мой портал работает! Увидимся на пляже!
 + I think something is draining the magic out of the world. They say things have been going downhill ever since the dragons left here a thousand years ago.
+$ По ходу, что-то выкачивает магию из этого мира. Говорят, все пошло наперекосяк с тех пор, как отсюда ушли драконы, аж тысячу лет назад.
 
 > Hunter
 + I see an egg at the bottom of this lake. I would go get it, but I don't want to get my fur all wet. Maybe you could get it. You can dive underwater by pressing the > button when you're on the surface, and charge underwater by holding down the > button. &[Press > button to dive underwater &[Press < button to swim &[Hold down > button to charge underwater
+$ Я вижу яйцо на дне озера. Я б его вытащил, но мне не хочется до шерстинки промокнуть. А вот тебе это не грозит. Прыгай в воду и ныряй, нажав >. Держи > - и ты ускоришься. &[Нырни кнопкой > &[Удерживай <, чтобы плыть &[Для ускорения держи >.
 + Remember, press the > button to dive underwater. Then, when you are under the surface, hold down the > button to charge. &[Press > button to dive underwater &[Press < button to swim &[Hold down > button to charge underwater
+$ Запомни, чтобы нырнуть, нажми кнопку >. А когда ты уже под водой, держи >, если хочешь ускориться. &[Нажми >, чтобы нырнуть &[Нажимай кнопку <, чтобы плыть &[Держи > - и ты ускоришься.
 
 > Rocky
 + If you can bring back one person from each of our five worlds, we can help you use the balloon.
@@ -47,38 +55,59 @@
 
 > Cumulus
 + This is a balloon that will take you to a new land, but we can't use it until you bring back one person from each of the five worlds.
+$ Этот шар доставил бы тебя в другие края, но его не получится опустить, пока ты не приведёшь по одному обитателю из каждого мира.
 + Let's head on over to the balloon!
+$ Пошли скорее к шару!
 + Hop in the balloon whenever you want, Spyro!
+$ Запрыгивай в корзину когда пожелаешь, Спайро!
 
 > Mayor Leo
 + I don't know how this balloon works, but I think we can get it working for you if you bring back someone from each of the other worlds.
+$ Понятия не имею, как устроен этот шар. Но похоже, что на нём можно взлететь, если ты приведёшь сюда кого-нибудь из других миров.
 + Let's head on over to the balloon!
+$ Ну же, вперёд к шару!
 + I guess you just hop in the balloon, now... Don't ask me how it works, I just showed up for the punch and cookies, a ha ha ha.
+$ Наверное, надо забраться в корзину... Не знаю, как эта штука летает, я просто заглянул на чай с печеньками, ха-ха-ха.
 
 > Bianca
 + So... you're the one in charge of rescuing the eggs, huh? Heh heh heh... How sad... Look here, dragon, if you know what's good for you, you'll turn around and crawl back up that hole you came through. Those eggs belong to us now, and I've hidden them in places you'll never find in a thousand years! Besides, even if you could find an egg, our expertly trained armies will dispose of you and take it back. Do I make myself clear? If I find you here again, I am going to be verrrrry angry... and you won't like me when I'm angry...
 
-> �
+> ÿ
 + Spyro, I've got a special task for Sparx. Meet me back here later!           -Zoe
+$ Спайро, у меня особое поручение для Спаркса. Встретимся здесь позже! -Зоя 
 
 > Moneybags
 + I'm getting paid a fortune to keep Sheila the Kangaroo locked up... heh heh... the pesky animal must have been causing a lot of trouble for that poor Sorceress... I suppose I could accidentally let the kangaroo escape... if you were to pay me, say...a small fee. &Pay ^^^ gems to free Sheila? &Sure. &No thanks.
+$ Я получаю огромные деньжищи за то, что держу Кенгуру Шейлу под замком... хе-хе... это надоедливое животное сильно досаждает бедняжке Колдунье. Но замочек, совершенно случайно, мог бы и сломаться… скажем... за небольшую плату. &Выпустишь Шейлу за ^^^ камней? &Конечно. &Нет уж, спасибо.
 + Ahhh, Spyro, I love your sweet naivete... Your kind-hearted nature might be your downfall someday, but for the time being it's making me rich!
+$ Ах, Спайро, как же мне нравится твое милое простодушие... Твое доброе сердечко может подвести тебя когда-нибудь, но пока что оно делает меня богатым!
 + Well, don't worry, Spyro. Sheila won't stay in jail forever... The Sorceress is thinking about having her executed next Thursday.
+$ Ну, не расстраивайся, Спайро. Шейла не останется в клетке навечно... Колдунья подумывает избавиться от неё в следующий четверг. После дождичка.
 + The Sorceress has asked me to guard Sheila the Kangaroo. I suppose, if you had a bit more money, I'd be willing to let her escape. Then you could keep her for a pet or something. &[^^^ gems needed to free Sheila.
+$ Я охраняю кенгуру Шейлу по просьбе Колдуньи. Думаю, мне бы захотелось посодействовать её побегу, будь у тебя побольше денег. Она может стать твоим питомцем… Или ещё кем-нибудь… &[Свобода Шейлы стоит ^^^ камней.
 + ...
 + Spyro! My my, how funny to see you here! Why, I haven't seen you since we defeated Ripto in Avalar... heh heh... Well, my business went into a slump after you left, so I came here and struck up a nice deal with the local Sorceress. Lovely woman, she is. Seems to be very fond of dragons, too...
+$ Спайро! Мой дорогой, как здорово увидеть тебя здесь! Мы не виделись с тех пор, как разгромили Рипто в Аваларе... хе-хе... Конечно, с твоим уходом мой бизнес прогорел, и вот я пришел сюда и заключил дивную сделочку с местной Колдуньей. Какая женщина... Кажется, она тоже без ума от драконов...
 
 > Hunter
 + Yo, Spyro! I just found one of those portal thingamajigs that leads to a different world, but you'll have to glide to get across to it. Press the < button to jump, then press the < button again while you're in the air to glide! Just follow me... &[Press < button to jump. &[Press < button in mid-air to glide.
+$ Йоу, Спайро! Я тут нашёл одну из этих штуковин - порталов, которые ведут в другие миры, но до него ещё нужно долететь. Нажми < для прыжка, а когда будешь в воздухе, жми его снова - и ты полетишь! Двигай за мной. &[Прыгни кнопкой < . &[ В воздухе нажми <, чтобы лететь.
 + To get the best glide, press the < button at the very top of your jump.
+$ Чтобы пролететь дальше, тыкай на < в самом верху прыжка.
 + I saw something shiny in that cave over there...let's go check it out! You can get there by hovering. To hover, just press the } button at the end of your glide! &[Press the } button at the end of your glide to hover. &[Hovering will give you extra height and distance.
+$ Я вижу что-то блестящее вон в той пещере... давай узнаем, чё это! Но тебе бы вспорхнуть чуток, чтобы добраться дотуда. Так что жми кнопку } в конце полёта! &[Завершая полёт, нажимай кнопку }, чтобы взмахнуть крыльями. &[Ты пролетишь выше и дальше.
 + To get the best glide distance, press the < button while walking forward, then press it again at the top of your jump. Finally, press the } button just before you get to the landing to hover. &[Pressing the } button gives you extra glide distance!
+$ Чтобы пролететь как можно дальше, шагай вперёд и зажми кнопку <, а когда высоко подпрыгнешь, нажми её ещё раз. Затем не забудь про }, когда уже идёшь на посадку. &[ } в конце увеличит полёт!
 + Oh, I almost forgot, I found this egg!
+$ Ой, чуть не забыл, я же нашел это яйцо!
 + There's definitely something shiny at the bottom of this hole. I was about to jump down there, but I think I hear running water and I hate to get wet. It's a cat thing.
+$ На дне этой дыры точно чё-то блестит. Я уж было собрался туда прыгнуть, как услышал, что внизу журчит вода. А я ненавижу намокать. Кошачьи заморочки.
 
 > Sheila the Kangaroo
 + Hi, Spyro. If you bring someone back from each of the five worlds, we'll have enough weight to pull down this balloon for you.
+$ Здорово, Спайро. Приведи сюда ещё ребят из остальных миров, и тогда уж мы своим весом опустим этот шарик.
 + Let's head on over to the balloon!
+$ Эгей, шар ждёт!
 + This balloon will take you to a land closer to the Sorceress, Spyro. You can also use it to come back here whenever you want to.
+$ Спайро, воздушный шар донесёт тебя чуть ближе к Колдунье. Ну и вернуться на нём тоже всегда сможешь.
 + Thanks for freeing me. Why don't you come visit me in my home world?

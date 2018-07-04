@@ -73,7 +73,7 @@ $ Увы, я потерял свою любимую, её охраняют зл�
 
 > я
 + Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
-$ Вниманию дракона: если ещё желаешь увидать своего паршивого кота, то проваливай отсюда сейчас!\ -The Sorceress
+$ Вниманию дракона: если ещё желаешь увидать своего паршивого кота, то катись отсюда сейчас!\     -Колдунья
 
 > Hunter
 + Hi Spyro. I found this gladiator training arena and it makes a pretty cool skate park! Care for a test of your boarding skills? &Start boarding challenge now? &Yes. &No.
