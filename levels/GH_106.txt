@@ -3,68 +3,100 @@
 
 > Zoe
 + You can Hover to get more distance when gliding. Just press the } button at the end of your glide. &[Press } button at the end of your glide to get more distance.
+$ Ты можешь взмахнуть крыльями, чтобы пролететь чуть дальше. Просто нажми } в конце. &[Перед самым приземлением жми } и окажешься подальше.
 
 > Zoe
 + If you want a quick summary of your progress in a world, you can press the @4SELECT@0 button to open the Atlas page for the world you are in. &[Press @0SELECT@4 button to view Atlas.
+$ Если хочешь узнать о своих успехах, нажми @4SELECT@0,тогда откроется Атлас на странице мира, в котором ты находишься. &[Открывай Атлас кнопкой @0SELECT@4.
 
 > Sebastian the Seal
 + While I was gone, my friends borrowed the rhynocs' submarine... then they took it for a joy ride... and then they smashed it into a big pile of rocks. Oddly enough, the rhynocs failed to see the humor in the story and stuffed my friends in the jail behind you.
+$ Пока меня не было, мои друзья стащили подлодку носорогов... ну, погоняли на ней... а потом врезались в здоровенный риф! Как ни странно, носороги не поняли юмора и запихнули бедолаг в клетку позади тебя.
 + The rhynocs have boarded up a lot of our doors, but I bet you're strong enough to smash them down. &[Use charge to smash boards.
+$ Носороги заколотили добрую половину дверей, но уж ты-то без труда их разнесёшь. &[Выбей доски с разбега.
 
 > Stanley the Seal
 + My plan worked! That dumb octopus dropped the jail key while he was shaking me! Now I can free my friends...
+$ Сработало! Этот тупой осьминожка выронил ключ от клетки, пока пытался меня защекотать. Теперь уж я выпущу друзей…
 + Oh, I forgot to tell you... one of the rhynocs had this egg in his lunch box...
+$ О, вылетело из головы. Мне попалось это яйцо в тарелке у одного носорога.
 
-> �
+> ÿ
 + Dear Dragon: If you're looking for that kangaroo, I'm afraid she's not available... EVER!\      -The Sorceress
+$ Дорогой Дракоша: Если ищешь кенгуру - сожалею, она вне зоны доступа… НАВЕКИ! \ -Колдунья
 + I'm still back in my home world with my goat friends. Come on over if you like.\          -Sheila
+$ Спайро, спасибо, что заскочил, но у меня дела в родном мире. Навести меня там.\ -Шейла  
 + Come on in!\     -Sheila
+$ Входи!\ - Шейла
 
 > Sigmund the Seal
 + I can't wait until the rhynocs build a new submarine! Next time it's my turn to drive!
+$ Жду не дождусь, когда же носороги построят новую подлодку! Чур, я буду за рулём!
 
 > Sal the Seal
 + Driving that submarine was a blast! Next time we're going to borrow the rhynocs' speed boat!
+$ Гонять на подлодке - просто бомба! В следующий раз свистнем у них скоростной катер!
 
 > Stu the Seal
 + We never would have crashed that submarine if Sal hadn't tried that hand-brake u-turn during an inverted barrel roll.
+$ Мы бы и не разбили подлодку, если бы Сэл не решил устроить крутой разворот на ручном тормозе прямо посреди полубочки
 
 * 2
 
 > Snappy the Seal
 + Hi, Sheila! The rhynocs have built a fortress on our beach and we're going to blow it to smithereens! We just need you to take out all the turrets for us. We're lighting the bomb now, just make sure to stomp all those turrets before the fuse runs out, OK?
+$ Привет, Шейла! Носороги построили крепость на нашем пляже, и мы собираемся разнести её на мелкие кусочки! Только нам нужно, чтобы ты разобралась с пушками. Мы поджигаем бомбы, а ты поломай все пушки, прежде чем сгорит фитиль, ладно?
 + Wow! I can't believe I survived that blast! It's a good thing I kept this egg nice and safe in my pocket.
+$ Ого! Поверить не могу, я пережил взрыв! Как хорошо, что это яйцо лежит целёхонько у меня в кармане.
 + Ready to try stomping the turrets again? &Try again? &Yes &No
+$ Попробуешь снова разрушить башни с пушками? &Ещё попытку? &Да &Нет
 + Yippee! I'll light the fuse on the next bomb! &[Stomp all turrets before bomb explodes.
+$ И-и-ха! Я подожгу фитиль новой бомбы!
 + No problem. We'll be playing hot potato with this bomb until you come back.
+$ Ну ничего, мы поиграем с бомбой в ""горячую картошку"", пока ты не вернёшься.
 + Owww... That really smarts... No problem though, we've got more bombs!!!
+$ А-а-ай... Какая бо-о-оль! Ну да ладно, у нас ещё полно бомб!!!
 
 > Sandy the Seal
 + Our beach is your beach.
+$ Наш пляж - твой пляж.
 
 > Slappy the Seal
 + Stay and get a tan, if you like.
+$ Позагорай, если хочешь.
 
 > Sheila
 + Oh, hi, Spyro! Some of my seal friends are trying to take down a rhynoc fortress! I'm about to go and lend a foot... I love the smell of singed rhynoc in the morning!
+$ Приветище, Спайро! А мои друзья крепость носорогов сносят! Пойду-ка приложу к этому ногу... Люблю запах жареных носорогов по утрам!
 
 * 3
 
 > Smelt the Seal
 + Bluto the rhynoc has challenged us to a naval battle. Our speed boat versus his nuclear shark submarine. If we win, we get the dragon egg he's guarding. If we lose, we have to spend a month in K.P.
+$ Носорог Блуто вызвал нас на морское сражение. Наша скоростная лодка против его ядерной подлодки-акулы. Если мы выиграем, он отдаст драконье яйцо, которое охраняет. Если проиграем – то месяц будем в К.Р.
 + Whaddya say, do you want to take on Bluto? &Fight the nuclear shark sub? &Yeehah! &You gotta be kidding.
+$ Ну чё как, хочешь всыпать Блуто? &Сразишься с ядерной подлодкой? &Дааа! &Шутишь, что ли?
 + OK, good luck! Just remember, stay away from the sharp end! &[Press the < button to speed up. &[Press the { Button to fire a missile. &[Pick up crates to get more missiles.
+$ Да, покажи ему, где раки зимуют! И держись подальше от акульей морды. &[Жми < для ускорения. &[Стреляй кнопкой {. &[ Подбирай ящики с ракетами.
 + I don't blame you. I already owe seven years of kitchen duty, and I'm not about to risk getting another month!
+$ Ладно, ты не виноват. Просто я в Кухонном Рабстве на семь лет вперёд, и получать ещё месяц мне ни к чему!
 + Wow! That's the first time Bluto has ever lost! You've got a lot of talent for someone so purple... I hope this egg was worth all the trouble.
+$ Ого! Впервые в жизни Блуто проиграл! А ты весьма способный для… настолько пурпурного. Надеюсь, яйцо хоть стоило того.
 
 * 4
 
 > Sebastian the Seal
 + While I was gone, my friends borrowed the rhynocs' submarine... then they took it for a joy ride... and then they smashed it into a big pile of rocks. Oddly enough, the rhynocs failed to see the humor in the story and stuffed my friends in the jail behind you.
+$ Пока меня не было, мои друзья стащили подлодку носорогов... ну, погоняли на ней... а потом врезались в здоровенный риф! Как ни странно, носороги не поняли юмора и запихнули бедолаг в клетку позади тебя.
 + The rhynocs have boarded up a lot of our doors, but I bet you're strong enough to smash them down. &[Use charge to smash boards.
+$ Носороги заколотили добрую половину дверей, но уж ты-то без труда их разнесёшь. &[Выбей доски с разбега.
 
 > Sandy the Seal
 + We had a dragon egg for you, but we used it to test our ultra-high-speed-super-fluidity tunnel. The good news is that it made it to the end of the tunnel without a scratch! The bad news is that there's no way to get it back out now.
+$ У нас было драконье яйцо для тебя, но мы протестировали им наш супер-высокоскоростной-ультратекучий тоннель. Хорошая новость - яйцо добралось до конца туннеля без единой царапинки! Плохая - теперь мы не можем его оттуда достать.
 + The tunnel is chock full of rhynocs and floating mines. The only way to retrieve that egg is to defeat every single rhynoc in the tunnel.
+$ Туннель битком набит носорогами и плавучими минами. Так что яйцо не достать, пока не выбьешь оттуда каждого носорожку.
 + This egg has surprisingly good fluid dynamic characteristics. From now on, all of our submarines will be egg-shaped.
+$ У этого яйца поразительно хорошая обтекаемость. Отныне, все наши подлодки будут в форме яиц.
 + You'll have to defeat every single rhynoc in the tunnel before you can recapture the egg.
+$ Нужно избавиться от всех носорогов в туннеле, только тогда ты вытащишь яйцо.

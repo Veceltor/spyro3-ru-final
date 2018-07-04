@@ -3,4 +3,6 @@
 
 > Sheila
 + When I heard the Sorceress was planning to ambush you, I got here as fast as I could. No worries, though. This wussy green toad will be no match for the two of us!
+$ Как только я услыхала, что Колдунья устроила тебе засаду, я со всех ног примчалась сюда. Но не боись. Эта задохлая зелёная жабень не устоит против нас с тобой!
 + If you can charge toad boy into the lava, I think I can finish him off.
+$ Спихни лягуху в лаву, и там уж я с ней расправлюсь.
