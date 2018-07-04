@@ -144,6 +144,12 @@ begin
   end;
 end;
 
+function TLevelData.SaveData(): DataString;
+begin
+  SetLength(Result, DataLength());
+  SaveData(Cast(Result));
+end;
+
 function TLevelData.DataLength(): Integer;
 var
   Index: Integer;
@@ -160,12 +166,6 @@ begin
   FData := Memory;
   FGame := Game;
   IndexData();
-end;
-
-function TLevelData.SaveData(): DataString;
-begin
-  SetLength(Result, DataLength());
-  SaveData(Cast(Result));
 end;
 
 function TLevelData.FirstOffset(): Integer;

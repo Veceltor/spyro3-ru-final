@@ -135,6 +135,8 @@ function AlignInc(Offset, Align: Integer): Integer;
 
 function AlignValue(Offset, Align: Integer): Integer;
 
+function AlignDiv(Offset, Align: Integer): Integer;
+
 function Obj2Int(Obj: TObject): Integer;
 
 function Int2Obj(Int: Integer): Pointer;
@@ -150,6 +152,8 @@ procedure ExchangeDwords(Ptr1, Ptr2: Pointer; SizeInBytes: Integer);
 procedure ExchangeInteger(var Int1, Int2: Integer);
 
 function MakeArray(Arr: array of WideString): ArrayOfWide; overload;
+
+function DataStr(From: Pointer; Size: Integer): DataString;
 
 implementation
 
@@ -386,6 +390,11 @@ begin
   Result := Offset + AlignInc(Offset, Align);
 end;
 
+function AlignDiv(Offset, Align: Integer): Integer;
+begin
+  Result := AlignValue(Offset, Align) div Align;
+end;
+
 function Obj2Int(Obj: TObject): Integer;
 begin
   Result := Integer(Pointer(Obj));
@@ -468,6 +477,11 @@ begin
   SetLength(Result, Length(Arr));
   for Index := 0 to Length(Result) - 1 do
     Result[Index] := Arr[Index];
+end;
+
+function DataStr(From: Pointer; Size: Integer): DataString;
+begin
+  SetString(Result, CastChar(From), Size);
 end;
 
 end.

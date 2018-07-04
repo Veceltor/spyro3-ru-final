@@ -16,6 +16,7 @@ type
     function Compute(): Integer;
     procedure GetItem(Index: Integer; out Addr: Pointer; out Offset, Name, Size:
       Integer; out Fit: Boolean);
+    function ExtraSpace(): Integer;
   private
     FItem, FSpace: TList;
     FMem: TMemorySimple;
@@ -223,6 +224,17 @@ begin
   Size := Item.Size;
   Name := Item.Name;
   Fit := Item.Take >= 0;
+end;
+
+function TKnapsack.ExtraSpace(): Integer;
+var
+  Index: Integer;
+begin
+  Result := 0;
+  if FComputed then
+    for Index := 0 to FItem.Count - 1 do
+      if PItem(FItem[Index]).Take < 0 then
+        Inc(Result, PItem(FItem[Index]).Size);
 end;
 
 end.

@@ -2,29 +2,51 @@
 * 1
 
 > Hydrar the WaterWizard
+$ 
 + Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
+$ 
 
 > Hydrar the WaterWizard
+$ 
 + Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
+$ 
 
 > Hydrar the WaterWizard
+$ 
 + Things just aren't the same since our magic fountain shut off. It sure would help if you could find out what evil force is behind this disaster!
+$ 
 
 > Snoozle the WaterWizard
+$ 
 + Wha? Oh, um, I must have dozed off there. Golly, looks like I let the fountain switch off. Here, take this orb and, um, don't mention my little nap to Hydrar, OK?
+$ 
 
 > Basil the Explorer
+$ 
 + Ah, Spyro, a friendly face! A bunch of rotten thieves have stolen the spark plugs and I'm stuck here. Please get the four plugs back! &[Catch thieves to retrieve the spark plugs.
+$ 
 + This is useless without all four spark plugs I'm afraid. &[get all 4 spark plugs from the thieves
+$ 
 + Wahoo! I'm back in business! Here, young dragon friend, take this. It's museum quality, but you deserve it!
+$ 
 + Hmm...now I just need to figure out how to collect the ivory from those beasties before they disappear...
+$ 
 
 > Professor
+$ 
 + Ahh Spyro, so glad you're here. I'm perfectly useless without my trusty pencil, and I seem to have lost it. I do have this extra egg...perhaps you can trade it for my pencil... &[Pick up the egg and trade it.
+$ 
 + Hmm, no, that won't help me Spyro. &[Keep trading to get the pencil.
+$ 
 + Does that look like a pencil? &[Keep trading to get the pencil.
+$ 
 + My do I need that pencil back. Would you like to start over with a new egg? &Would you like to start over?&Yes, please&Never mind
+$ 
 + Here's another egg. You won't be able to trade it directly for a pencil, you know... &[Pick up the egg and trade it.
+$ 
 + All right. I've got lots of eggs if you need one later.
+$ 
 + My pencil! Now I can begin calculating the age of the universe again! Here, take this orb...Elora says she thinks I'm going to lose it...
+$ 
 + Hmm, carry the 6...
+$ 

@@ -2,69 +2,119 @@
 * 1
 
 > Zoe
+$ 
 + This rhynoc is too big to charge. You'll have to flame him using the { button.
+$ 
 
 > Zoe
+$ 
 + Hi Spyro! Each time a fairy zaps you, like this...
+$ 
 + That means your progress is saved. If you get into trouble you'll return to the last place you got zapped.
+$ 
 
 > Councillor George
+$ 
 + Oh my! Oh my! Can you help us? Hordes of ferocious rhynocs have overrun our town and kidnapped the mayor.
+$ 
 + Are you a dragon? I never believed you really existed.
+$ 
 + Would you like a chicken sandwich? They're very good.
+$ 
 + Those pesky rhynocs are back again, but I'm sure you'll soon sort them out.
+$ 
 
 > Citizen Paulus
+$ 
 + Let me catch my breath and I'll kick that other guy's butt.
+$ 
 + We showed those two bullies. If they hadn't outnumbered me two to one, I'd have finished them off ages ago.
+$ 
 + Have you seen any giant chickens around here?
+$ 
 
 > Mayor Leo
+$ 
 + Thank you for rescuing my town. As mayor I award you with one of our famous giant chicken eggs.
+$ 
 + I'm sorry, that was the ugliest chicken I've ever seen.
+$ 
 
 > Citizen Horace
+$ 
 + Whoo I'm dizzy.
+$ 
 + Thanks for the help, but I think I would have worn him down in a minute.
+$ 
 + Have you seen any of our giant chickens? The rhynocs have been trying to eat them all.
+$ 
 + Look, a chicken turned up. I hope it's not the only one left.
+$ 
 
-> ÿ
+>
 + To Whom it May Concern: Sheila the Kangaroo is currently otherwise detained -- by me. Please return in a few years.\      -The Sorceress
+$ 
 + Spyro, thanks for dropping by, but I'm currently busy in my home world. Come visit me there.\          -Sheila
+$ 
 + Come on in!\     -Sheila
+$ 
 
 * 2
 
 > Rapunzel
+$ 
 + What! Marco sent you here? I've got a restraining order against him.
+$ 
 + If you see Marco please tell him I've moved out.
+$ 
 
 > Sheila
+$ 
 + Hey Spyro, there are rhynocs everywhere. Maybe I can find some peace and quiet at the top of the tower...
+$ 
 
 > Marco
+$ 
 + Alas, I have lost my love, guarded by evil rhynocs at the top of yonder tower. Can you rescue her for me?
+$ 
 
 * 3
 
-> ÿ
+>
 + Attention dragon: if you ever want to see your mangy cat friend again, you had better leave here at once!\     -The Sorceress
+$ 
 
 > Hunter
+$ 
 + Hi Spyro. I found this gladiator training arena and it makes a pretty cool skate park! Care for a test of your boarding skills? &Start boarding challenge now? &Yes. &No.
+$ 
 + Are you ready for a challenge now? &Start boarding challenge now? &Yes. &No.
+$ 
 + I bet you can't catch all fifteen of the lizards running around here... Just come back if you want some boarding tips from the master. &[Catch the lizards.
+$ 
 + Yeah, maybe you'd better practice a bit first... Just come back here when you're up for a challenge.
+$ 
 + Having trouble? If you use the < button to jump off the ramps you'll get extra height and distance.
+$ 
 + Caught all the lizards yet? If you're having trouble catching them, don't be afraid to use your flame breath while on the skateboard.
+$ 
 + Hey that was great! And while you were boarding, I found this in a lizard burrow.
+$ 
 + Now that you've mastered the basics, let's see you do some stunts! Try using the < or } button to jump off ramps and turn in the air...
+$ 
 + This is the most fun I've had since we chased King Flippy on the manta ray.
+$ 
 + Alright, if you can catch all the lizards without wiping out and before time runs out, I  might be able to scrounge up another egg. It's not gonna be easy, though... &Start difficult boarding challenge now? &Yes. &No.
+$ 
 + If you want to try to catch those lizards, I'll start the clock now. &Start difficult boarding challenge now? &Yes. &No.
+$ 
 + Go get 'em, Spyro!
+$ 
 + Well whenever you're ready, come and talk to me.
+$ 
 + Awww, too bad... maybe you'll do better this time. &Try difficult boarding challenge again? &Yes. &No.
+$ 
 + Whoa, that was sweet! And look, there was another egg in the lizard burrow.
+$ 
 + You can go for the course record now, if you want. Whenever you hop on a skateboard, a timer will start. Score as many points as you can until the timer expires or you wipe out. Good luck!
+$ 
