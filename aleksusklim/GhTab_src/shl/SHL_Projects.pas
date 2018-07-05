@@ -223,13 +223,6 @@ end;
 
 //
 
-type
-  PGhTab = ^RGhTab;
-
-  RGhTab = record
-    V1, V2, V3, Text, Data, V4: Integer;
-  end;
-
 procedure Proj_GhTab(const Name: WideString);
 
   function WrongString(From: Pointer; Line: Boolean): Boolean;
@@ -263,7 +256,6 @@ procedure Proj_GhTab(const Name: WideString);
   end;
 
 var
-//  Level: TLevelData;
   Index, Can, Order, Active, Total, Cnt, Offset, Size, Take, Len, Need, Next,
     Tex: Integer;
   Data: DataString;
@@ -276,7 +268,6 @@ var
   KAddr, Save: Pointer;
   KFit: Boolean;
   Obj: PLevelObject;
-  Jap: PGhTab;
   Wad: TWadManager;
   Use: Boolean;
   Replace, Rus: TStringList;
@@ -290,22 +281,38 @@ var
   Where: Pointer;
   Me: PByte;
   Imp, Fit: Boolean;
+  RepFile, Ext: WideString;
+  Arr: ArrayOfData;
+  RepList: array of record
+    Search, Replace: TextString;
+  end;
+  RepSize, Sym: Integer;
+  WorkOld, WorkNew: TextString;
+  Failed: Boolean;
+  Ch: TextString;
 const
   Mb = 8 * 1024 * 1024;
+  Rounds: array[0..16] of TextString = (#$E2#$93#$AA, #$E2#$91#$A0, #$E2#$91#$A1,
+    #$E2#$91#$A2, #$E2#$91#$A3, #$E2#$91#$A4, #$E2#$91#$A5, #$E2#$91#$A6,
+    #$E2#$91#$A7, #$E2#$91#$A8, #$E2#$92#$B6, #$E2#$92#$B7, #$E2#$92#$B8,
+    #$E2#$92#$B9, #$E2#$92#$BA, #$E2#$92#$BB, #$E2#$80#$89);
+  Hexs: array[0..16] of TextString = ('0', '1', '2', '3', '4', '5', '6', '7',
+    '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', '');
 begin
-//  Writeln(Name);
+  Writeln(SFiles.GetLastSlash(Name, True));
   ZeroMem(@Levels[1], SizeOf(Levels));
   Knap := nil;
   Wad := nil;
   Replace := nil;
   Stream := nil;
-  Jap := nil;
   List := nil;
   Dups := nil;
   Vars := nil;
   Objs := nil;
   Have := nil;
   Rus := nil;
+  SetLength(RepList, 0);
+  SetLength(Arr, 0);
   try
     Have := TList.Create();
     Dups := TList.Create();
@@ -314,14 +321,94 @@ begin
     Wad := TWadManager.Create();
     Knap := TKnapsack.Create();
     Replace := TStringList.Create();
+    RepFile := SFiles.RemoveExtension(SFiles.GetExecutable()) + WideString('.txt');
+    RepSize := 0;
+    Stream := SFiles.OpenRead(RepFile);
+    if Stream <> nil then
+    begin
+      Replace.LoadFromStream(Stream);
+      SFiles.CloseStream(Stream);
+      WorkOld := STextUtils.Utf8BomDel(Replace.Text);
+      for Index := 0 to 16 do
+        WorkOld := StringReplace(WorkOld, Rounds[Index], '', [rfReplaceAll]);
+      Replace.Text := WorkOld;
+      SetLength(RepList, Replace.Count);
+      for Index := 0 to Replace.Count - 1 do
+      begin
+        Arr := STextUtils.SplitChar(Replace[Index], ['=']);
+        if (Length(Arr) > 1) and (Arr[0] <> '') then
+        begin
+          RepList[RepSize].Search := Arr[0];
+          RepList[RepSize].Replace := Arr[1];
+          Inc(RepSize);
+        end;
+      end;
+    end
+    else
+    begin
+      SetLength(RepList, 126 - 32 + 1);
+      Replace.Add(STextUtils.Utf8BomAdd());
+      for Index := 32 to 126 do
+      begin
+        RepList[RepSize].Search := Chr(Index);
+        RepList[RepSize].Replace := '$' + IntToHex(Index, 2);
+        Replace.Add(RepList[RepSize].Search + '=' + RepList[RepSize].Replace + '= ');
+        Inc(RepSize);
+      end;
+      Stream := SFiles.OpenNew(RepFile);
+      if Stream <> nil then
+      begin
+        Replace.SaveToStream(Stream);
+        SFiles.CloseStream(Stream);
+      end;
+    end;
+    for Index := 0 to RepSize - 1 do
+    begin
+      WorkOld := UpperCase(Trim(RepList[Index].Replace));
+      Sym := 1;
+      WorkNew := '';
+      Len := Length(WorkOld);
+      while Sym <= Len do
+      begin
+        if (Sym < Len - 1) and (WorkOld[Sym] = '$') and (WorkOld[Sym + 1] in ['0'
+          ..'9', 'A'..'F', 'a'..'f']) and (WorkOld[Sym + 2] in ['0'..'9', 'A'..
+          'F', 'a'..'f']) then
+        begin
+          Ch := UpperCase(Copy(WorkOld, Sym + 1, 2));
+          Cnt := Ord(Ch[1]) - Ord('0');
+          if Cnt > 9 then
+            Cnt := 10 + Ord(Ch[1]) - Ord('A');
+          WorkNew := WorkNew + Rounds[16] + Rounds[Cnt];
+          Cnt := Ord(Ch[2]) - Ord('0');
+          if Cnt > 9 then
+            Cnt := 10 + Ord(Ch[2]) - Ord('A');
+          WorkNew := WorkNew + Rounds[Cnt] + Rounds[16];
+          Inc(Sym, 3);
+        end
+        else
+        begin
+          WorkNew := WorkNew + WorkOld[Sym];
+          Inc(Sym);
+        end;
+      end;
+      RepList[Index].Replace := WorkNew;
+      if Length(StringReplace(RepList[Index].Replace, RepList[Index].Search,
+        RepList[Index].Replace, [rfReplaceAll])) > Length(RepList[Index].Replace) then
+        RepList[Index].Search := '';
+    end;
+    Replace.Clear();
     if UpperCase(TextString(SFiles.GetExtension(Name))) = '.TXT' then
     begin
       SFiles.DeleteFile(Name + '.new');
+      SFiles.DeleteFile(Name + '.text');
+      SFiles.DeleteFile(Name + '.log');
       Imp := True;
       Data := SFiles.ReadEntireFile(SFiles.RemoveExtension(Name), Mb);
       Stream := SFiles.OpenRead(Name);
       Replace.LoadFromStream(Stream);
       SFiles.CloseStream(Stream);
+      if Replace.Count > 0 then
+        Replace[0] := STextUtils.Utf8BomDel(Replace[0]);
       Cnt := 0;
       for Index := 0 to Replace.Count - 1 do
       begin
@@ -344,6 +431,50 @@ begin
             end;
         end;
       end;
+      WorkOld := Rus.Text;
+      for Index := 0 to RepSize - 1 do
+        if RepList[Index].Search <> '' then
+          while True do
+          begin
+            WorkNew := StringReplace(WorkOld, RepList[Index].Search, RepList[Index].Replace,
+              [rfReplaceAll]);
+            if WorkNew = WorkOld then
+              Break;
+            WorkOld := WorkNew
+          end;
+      Replace.Text := WorkNew;
+      Failed := False;
+      for Index := 0 to Rus.Count - 1 do
+      begin
+        WorkOld := Replace[Index];
+        WorkNew := WorkOld;
+        for Cnt := 0 to 16 do
+        begin
+          WorkOld := StringReplace(WorkOld, Rounds[Cnt], Hexs[Cnt], [rfReplaceAll]);
+          WorkNew := StringReplace(WorkNew, Rounds[Cnt], '', [rfReplaceAll]);
+        end;
+        if WorkNew <> '' then
+          Failed := True;
+        Rus.Strings[Index] := WorkOld;
+      end;
+      if Failed then
+      begin
+        Rus.Text := STextUtils.Utf8BomAdd(Replace.Text);
+        Ext := '.log';
+      end
+      else
+      begin
+        Replace.Clear();
+        for Index := 0 to Rus.Count - 1 do
+          Rus.Strings[Index] := STextUtils.HexToStr(Rus.Strings[Index]);
+        Ext := '.text';
+      end;
+      Stream := SFiles.OpenNew(Name + Ext);
+      if Stream <> nil then
+        Rus.SaveToStream(Stream);
+      SFiles.CloseStream(Stream);
+      Replace.Clear();
+      Assure(not Failed);
     end
     else
     begin
@@ -351,16 +482,7 @@ begin
       Imp := False;
       Data := SFiles.ReadEntireFile(Name, Mb);
     end;
-   { Stream := SFiles.OpenRead(Name + '.txt');
-    if Stream <> nil then
-    begin
-     // Replace.LoadFromStream(Stream);
-      FreeAndNil(Stream);
-    end;  }
-    //Use := Replace.Count > 0;
-
     Assure(Data <> '');
-//    SFiles.DeleteFile(Name + '.new');
     Wad.UseLevelSub(Data);
     Assure(Wad.Game in [GameSpyro2, GameSpyro3]);
     Order := 0;
@@ -376,8 +498,6 @@ begin
       Levels[Lev].OpenData(From, Wad.Game);
       Vars := Levels[Lev].GetVariables(Offset, Size);
       Objs := Levels[Lev].GetObjects(Active, Total);
-      // Seek := Levels[Lev].GetList(Len);
-//      Cnt := 0;
       List.Clear();
       Dups.Clear();
       for Index := 0 to Active - 1 do
@@ -437,15 +557,6 @@ begin
         if How = 0 then
           Have.Delete(Have.Count - 1);
       end;
-{
-      Load := STextUtils.HexToStr(Replace[Cnt]);
-      Knap.AddItem(nil, Index, SizeOf(RJapTab), 4);
-      Knap.AddSpace(Obj.Variables, SizeOf(RJapTab));
-      Knap.AddSpace(Jap.Text, AlignValue(Length(Line) + 1, 4));
-      ZeroMem(Cast(Vars, Jap.Text - Offset), Length(Line));
-      ZeroMem(Cast(Vars, Obj.Variables - Offset), SizeOf(RJapTab));
-      Knap.AddItem(nil, -1, Length(Load) + 1, 1);
-}
       Knap.Clear();
       Replace.Add('');
       Replace.Add('* ' + IntToStr(Lev));
@@ -464,8 +575,6 @@ begin
         begin
           Tgt := Tgt and $7fffffff;
           Len := AlignValue(StrLen(Where) + 1, 4);
-//          if Cnt < Rus.Count then
-//            Rus.Strings[Cnt - 1] := STextUtils.StrToHex(Rus.Strings[Cnt - 1]);
           Replace.Add('');
           if CastByte(Where)^ = 255 then
             Replace.Add('>')
@@ -500,10 +609,9 @@ begin
       begin
         Knap.Compute();
         Take := AlignDiv(Knap.ExtraSpace(), 88);
-      //  Take := 0;
+        Assure(Total - Active - Take > 8);
         Take := Levels[Lev].TakeSomeObjects(Take);
         Vars := Levels[Lev].GetVariables(Offset, Size);
-        //Writeln(Knap.ExtraSpace());
         for Index := 0 to Knap.ItemCount - 1 do
         begin
           Knap.GetItem(Index, Pointer(Cnt), Who, Tgt, Len, Fit);
@@ -520,40 +628,10 @@ begin
           begin
             Can := Who + Offset;
             CopyMem(Cast(Rus.Strings[Cnt]), Cast(Vars, Who), Len);
-
           end;
           CastInt(Vars, Tgt + Take)^ := Can;
           Rus.Objects[Cnt] := Pointer(Can);
-//
-      //    It := Integer(Pointer(Rus.Objects[Cnt]));
         end;
-
-{
-        for Index := 0 to Knap.ItemCount - 1 do
-        begin
-          Knap.GetItem(Index, KAddr, KOffset, KName, KSize, KFit);
-          if not KFit then
-            Inc(KOffset, Offset);
-          if KName <> -1 then
-          begin
-//          Level.ListChangePointer(Objs[KName].Variables + 12, KOffset + 12);
-//          Level.ListChangePointer(Objs[KName].Variables + 16, KOffset + 16);
-            Objs[KName].Variables := KOffset;
-            Jap := Cast(Vars, KOffset - Offset);
-            ZeroMem(Jap, KSize);
-            Jap.Data := KOffset + 20;
-          end
-          else
-          begin
-            Jap.Text := KOffset;
-            Save := Cast(Vars, KOffset - Offset);
-            Load := STextUtils.HexToStr(Replace[Cnt]);
-            Inc(Cnt);
-            CopyMem(Cast(Load), Save, KSize);
-          end;
-        end;
-}
-
       end;
       Levels[Lev].SaveData(From);
     end;
@@ -563,80 +641,15 @@ begin
     end
     else
     begin
+      if Replace.Count > 0 then
+        Replace[0] := STextUtils.Utf8BomAdd(Replace[0]);
       Stream := SFiles.OpenNew(Name + '.txt');
       Replace.SaveToStream(Stream);
       FreeAndNil(Stream);
     end;
-
-     {
-    if Use then
-    begin
-      Need := Knap.Compute();
-      if Need > 0 then
-      begin
-        Need := AlignValue(Need, 88) div 88;
-        if Need > Total - Active then
-        begin
-          Writeln('Text too long! Need empty objects: ', Need);
-          Abort;
-        end;
-
-        Need := Level.TakeSomeObjects(Need);
-        Vars := Level.GetVariables(Offset, Size);
-        Objs := Level.GetObjects(Active, Total);
-
-        Writeln('Text takes objects: ', Need div 88);
-      end
-      else
-        Writeln('Text OK');
-
-      Cnt := 0;
-      Jap := nil;
-      for Index := 0 to Knap.ItemCount - 1 do
-      begin
-        Knap.GetItem(Index, KAddr, KOffset, KName, KSize, KFit);
-        if not KFit then
-          Inc(KOffset, Offset);
-        if KName <> -1 then
-        begin
-//          Level.ListChangePointer(Objs[KName].Variables + 12, KOffset + 12);
-//          Level.ListChangePointer(Objs[KName].Variables + 16, KOffset + 16);
-          Objs[KName].Variables := KOffset;
-          Jap := Cast(Vars, KOffset - Offset);
-          ZeroMem(Jap, KSize);
-          Jap.Data := KOffset + 20;
-        end
-        else
-        begin
-          Jap.Text := KOffset;
-          Save := Cast(Vars, KOffset - Offset);
-          Load := STextUtils.HexToStr(Replace[Cnt]);
-          Inc(Cnt);
-          CopyMem(Cast(Load), Save, KSize);
-        end;
-      end;
-//      Level.SaveData(From);
-      SFiles.WriteEntireFile(Name + '.new', Data);
-    end
-    else
-    begin
-      Stream := SFiles.OpenNew(Name + '.txt');
-      Replace.SaveToStream(Stream);
-      FreeAndNil(Stream);
-    end;
-    }
   except
     Writeln('ERROR!');
   end;
-  {
-  if Replace <> nil then
-  begin
-    Line := '';
-    for Index := 0 to Replace.Count - 1 do
-      Line := Line + Replace[Index] + '00';
-    SFiles.WriteEntireFile(Name + '.bin', STextUtils.HexToStr(Line));
-  end;
-  }
   for Index := 1 to 5 do
     Levels[Index].Free();
   Knap.Free();

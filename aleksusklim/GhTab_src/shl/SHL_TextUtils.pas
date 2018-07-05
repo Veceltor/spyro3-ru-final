@@ -36,6 +36,8 @@ type
     class function DataToWide(const Data: DataString): WideString;
     class function IniRead(const Path: WideString; Ini: TMemIniFile = nil): TMemIniFile;
     class function IniWrite(const Path: WideString; Ini: TMemIniFile): Boolean;
+    class function Utf8BomAdd(const Text: TextString = ''): TextString;
+    class function Utf8BomDel(const Text: TextString): TextString;
   end;
 
 implementation
@@ -496,6 +498,20 @@ begin
   end;
   SFiles.CloseStream(Stream);
   List.Free();
+end;
+
+class function STextUtils.Utf8BomAdd(const Text: TextString = ''): TextString;
+begin
+  Result := Chr($EF) + Chr($BB) + Chr($BF) + Utf8BomDel(Text);
+end;
+
+class function STextUtils.Utf8BomDel(const Text: TextString): TextString;
+begin
+  Result := Text;
+  if Length(Result) < 3 then
+    Exit;
+  if (Ord(Result[1]) = $EF) and (Ord(Result[2]) = $BB) and (Ord(Result[3]) = $BF) then
+    Delete(Result, 1, 3);
 end;
 
 end.

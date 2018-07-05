@@ -10,6 +10,6 @@ uses
 
 
 begin
-  Project(Proj_GhTab, 'GhTab v1.2, by Kly_Men_COmpany! Exit...');
+  Project(Proj_GhTab, 'GhTab v1.3, by Kly_Men_COmpany! Exit...');
 end.
 
